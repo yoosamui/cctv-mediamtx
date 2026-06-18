@@ -11,6 +11,7 @@
 #Testing Output folder
 .output/
 #Extension App-file
+
 *.app
 #Rapid Application Development File
 rad.json
@@ -21,3 +22,4 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+config/
