@@ -1,0 +1,703 @@
+2026/06/06 22:59:19 INF MediaMTX v1.9.3
+2026/06/06 22:59:19 INF configuration loaded from /home/pi/cctv_media/mediamtx/mediamtx.yml
+2026/06/06 22:59:19 INF [RTSP] listener opened on :8554 (TCP), :8000 (UDP/RTP), :8001 (UDP/RTCP)
+2026/06/06 22:59:19 INF [RTMP] listener opened on :1935
+2026/06/06 22:59:19 INF [HLS] listener opened on :8888
+2026/06/06 22:59:19 INF [WebRTC] listener opened on :8889 (HTTP), :8189 (ICE/UDP)
+2026/06/06 22:59:19 INF [SRT] listener opened on :8890 (UDP)
+2026/06/06 22:59:35 INF [WebRTC] [session 0897a1f2] created by 192.168.1.117:48918
+2026/06/06 22:59:35 INF [WebRTC] [session 0897a1f2] closed: no one is publishing to path 'center'
+2026/06/06 22:59:37 INF [WebRTC] [session 3e311e4c] created by 192.168.1.117:48918
+2026/06/06 22:59:37 INF [WebRTC] [session 3e311e4c] closed: no one is publishing to path 'center'
+2026/06/06 22:59:39 INF [WebRTC] [session 687d8063] created by 192.168.1.117:48918
+2026/06/06 22:59:39 INF [WebRTC] [session 687d8063] closed: no one is publishing to path 'center'
+2026/06/06 22:59:41 INF [WebRTC] [session 9dc23135] created by 192.168.1.117:48918
+2026/06/06 22:59:41 INF [WebRTC] [session 9dc23135] closed: no one is publishing to path 'center'
+2026/06/06 22:59:43 INF [WebRTC] [session c7e3513b] created by 192.168.1.117:48918
+2026/06/06 22:59:43 INF [WebRTC] [session c7e3513b] closed: no one is publishing to path 'center'
+2026/06/06 22:59:46 INF [WebRTC] [session abfd2081] created by 192.168.1.117:48918
+2026/06/06 22:59:46 INF [WebRTC] [session abfd2081] closed: no one is publishing to path 'center'
+2026/06/06 22:59:48 INF [WebRTC] [session d2f723ad] created by 192.168.1.117:48918
+2026/06/06 22:59:48 INF [WebRTC] [session d2f723ad] closed: no one is publishing to path 'center'
+2026/06/06 22:59:50 INF [WebRTC] [session 43f2511d] created by 192.168.1.117:48918
+2026/06/06 22:59:50 INF [WebRTC] [session 43f2511d] closed: no one is publishing to path 'center'
+2026/06/06 22:59:52 INF [WebRTC] [session cbcd9756] created by 192.168.1.117:48918
+2026/06/06 22:59:52 INF [WebRTC] [session cbcd9756] closed: no one is publishing to path 'center'
+2026/06/06 22:59:54 INF [WebRTC] [session d937ca57] created by 192.168.1.117:48918
+2026/06/06 22:59:54 INF [WebRTC] [session d937ca57] closed: no one is publishing to path 'center'
+2026/06/06 22:59:56 INF [WebRTC] [session 9ccad77e] created by 192.168.1.117:48918
+2026/06/06 22:59:56 INF [WebRTC] [session 9ccad77e] closed: no one is publishing to path 'center'
+2026/06/06 22:59:58 INF [WebRTC] [session 997ff459] created by 192.168.1.117:48918
+2026/06/06 22:59:58 INF [WebRTC] [session 997ff459] closed: no one is publishing to path 'center'
+2026/06/06 22:59:59 INF [RTSP] [conn 127.0.0.1:53418] opened
+2026/06/06 22:59:59 INF [RTSP] [conn 127.0.0.1:53424] opened
+2026/06/06 22:59:59 INF [RTSP] [session 70231ce3] created by 127.0.0.1:53418
+2026/06/06 22:59:59 INF [RTSP] [session 70231ce3] is publishing to path 'center', 1 track (H264)
+2026/06/06 22:59:59 INF [RTSP] [conn 127.0.0.1:53440] opened
+2026/06/06 22:59:59 INF [RTSP] [session f989e190] created by 127.0.0.1:53424
+2026/06/06 22:59:59 INF [RTSP] [session f989e190] is publishing to path 'left', 1 track (H264)
+2026/06/06 22:59:59 INF [RTSP] [conn 127.0.0.1:53446] opened
+2026/06/06 22:59:59 INF [RTSP] [conn 127.0.0.1:53454] opened
+2026/06/06 22:59:59 INF [RTSP] [conn 127.0.0.1:53462] opened
+2026/06/06 22:59:59 INF [RTSP] [session ed88bae3] created by 127.0.0.1:53440
+2026/06/06 22:59:59 INF [RTSP] [session ed88bae3] is publishing to path 'gate', 1 track (H264)
+2026/06/06 22:59:59 INF [RTSP] [session c39b8080] created by 127.0.0.1:53446
+2026/06/06 22:59:59 INF [RTSP] [session c39b8080] is publishing to path 'entrance', 1 track (H264)
+2026/06/06 22:59:59 INF [RTSP] [session 189e1fd6] created by 127.0.0.1:53454
+2026/06/06 22:59:59 INF [RTSP] [session 189e1fd6] is publishing to path 'garage', 1 track (H264)
+2026/06/06 22:59:59 INF [RTSP] [session fa059a67] created by 127.0.0.1:53462
+2026/06/06 22:59:59 INF [RTSP] [session fa059a67] is publishing to path 'behind', 1 track (H264)
+2026/06/06 23:00:00 INF [WebRTC] [session 09838be7] created by 192.168.1.117:48918
+2026/06/06 23:00:00 INF [WebRTC] [session 09838be7] peer connection established, local candidate: host/udp/192.168.1.134/8189, remote candidate: prflx/udp/192.168.1.117/57339
+2026/06/06 23:00:00 INF [WebRTC] [session 09838be7] is reading from path 'center', 1 track (H264)
+2026/06/06 23:00:24 INF [WebRTC] [session a63979f6] created by 192.168.1.117:48918
+2026/06/06 23:00:24 INF [WebRTC] [session a63979f6] peer connection established, local candidate: host/udp/192.168.1.134/8189, remote candidate: prflx/udp/192.168.1.117/36262
+2026/06/06 23:00:24 INF [WebRTC] [session a63979f6] is reading from path 'center', 1 track (H264)
+2026/06/06 23:00:33 INF [WebRTC] [session 5bf2b3d5] created by 192.168.1.101:57268
+2026/06/06 23:00:33 INF [WebRTC] [session 5bf2b3d5] peer connection established, local candidate: host/udp/192.168.1.134/8189, remote candidate: prflx/udp/192.168.1.101/59925
+2026/06/06 23:00:33 INF [WebRTC] [session 5bf2b3d5] is reading from path 'gate', 1 track (H264)
+2026/06/06 23:00:39 INF [WebRTC] [session 3ead2f58] created by 192.168.1.101:57268
+2026/06/06 23:00:39 INF [WebRTC] [session 3ead2f58] peer connection established, local candidate: host/udp/192.168.1.134/8189, remote candidate: prflx/udp/192.168.1.101/49661
+2026/06/06 23:00:39 INF [WebRTC] [session 3ead2f58] is reading from path 'gate', 1 track (H264)
+2026/06/06 23:00:42 INF [WebRTC] [session 009d2d43] created by 192.168.1.101:57268
+2026/06/06 23:00:42 INF [WebRTC] [session 009d2d43] peer connection established, local candidate: host/udp/192.168.1.134/8189, remote candidate: prflx/udp/192.168.1.101/52306
+2026/06/06 23:00:42 INF [WebRTC] [session 009d2d43] is reading from path 'gate', 1 track (H264)
+2026/06/06 23:00:44 INF [WebRTC] [session c50d3869] created by 192.168.1.101:57268
+2026/06/06 23:00:44 INF [WebRTC] [session c50d3869] peer connection established, local candidate: host/udp/192.168.1.134/8189, remote candidate: prflx/udp/192.168.1.101/56350
+2026/06/06 23:00:44 INF [WebRTC] [session c50d3869] is reading from path 'gate', 1 track (H264)
+2026/06/06 23:00:45 INF [WebRTC] [session 5bf2b3d5] closed: peer connection closed
+2026/06/06 23:00:47 INF [WebRTC] [session 3ead2f58] closed: peer connection closed
+2026/06/06 23:00:50 INF [WebRTC] [session 009d2d43] closed: peer connection closed
+2026/06/06 23:01:25 INF [WebRTC] [session c50d3869] closed: peer connection closed
+2026/06/06 23:02:55 INF [WebRTC] [session e8ae1781] created by 192.168.1.101:41628
+2026/06/06 23:02:55 INF [WebRTC] [session e8ae1781] peer connection established, local candidate: host/udp/192.168.1.19/8189, remote candidate: prflx/udp/192.168.1.101/48336
+2026/06/06 23:02:55 INF [WebRTC] [session e8ae1781] is reading from path 'center', 1 track (H264)
+2026/06/06 23:04:48 INF [WebRTC] [session 93b3601b] created by 192.168.1.101:47506
+2026/06/06 23:04:48 INF [WebRTC] [session 93b3601b] peer connection established, local candidate: host/udp/192.168.1.134/8189, remote candidate: prflx/udp/192.168.1.101/50060
+2026/06/06 23:04:48 INF [WebRTC] [session 93b3601b] is reading from path 'center', 1 track (H264)
+2026/06/06 23:04:50 INF [WebRTC] [session 810cdf68] created by 192.168.1.101:47506
+2026/06/06 23:04:50 INF [WebRTC] [session 810cdf68] peer connection established, local candidate: host/udp/192.168.1.134/8189, remote candidate: prflx/udp/192.168.1.101/34343
+2026/06/06 23:04:50 INF [WebRTC] [session 810cdf68] is reading from path 'center', 1 track (H264)
+2026/06/06 23:04:53 INF [WebRTC] [session e8ae1781] closed: peer connection closed
+2026/06/06 23:04:55 INF [RTSP] [session 70231ce3] destroyed: torn down by 127.0.0.1:53418
+2026/06/06 23:04:55 INF [RTSP] [conn 127.0.0.1:53418] closed: EOF
+2026/06/06 23:04:55 INF [WebRTC] [session 93b3601b] closed: terminated
+2026/06/06 23:04:55 INF [WebRTC] [session a63979f6] closed: terminated
+2026/06/06 23:04:55 INF [WebRTC] [session 09838be7] closed: terminated
+2026/06/06 23:04:55 INF [WebRTC] [session 810cdf68] closed: terminated
+2026/06/06 23:04:55 INF [RTSP] [session f989e190] destroyed: torn down by 127.0.0.1:53424
+2026/06/06 23:04:55 INF [RTSP] [conn 127.0.0.1:53424] closed: EOF
+2026/06/06 23:04:55 INF [RTSP] [session ed88bae3] destroyed: torn down by 127.0.0.1:53440
+2026/06/06 23:04:55 INF [RTSP] [conn 127.0.0.1:53440] closed: EOF
+2026/06/06 23:04:55 INF [RTSP] [session c39b8080] destroyed: torn down by 127.0.0.1:53446
+2026/06/06 23:04:55 INF [RTSP] [conn 127.0.0.1:53446] closed: EOF
+2026/06/06 23:04:55 INF [RTSP] [session 189e1fd6] destroyed: torn down by 127.0.0.1:53454
+2026/06/06 23:04:55 INF [RTSP] [conn 127.0.0.1:53454] closed: EOF
+2026/06/06 23:04:55 INF [RTSP] [session fa059a67] destroyed: torn down by 127.0.0.1:53462
+2026/06/06 23:04:55 INF [RTSP] [conn 127.0.0.1:53462] closed: EOF
+2026/06/06 23:05:03 INF [WebRTC] [session 33f0a05b] created by 192.168.1.101:47506
+2026/06/06 23:05:03 INF [WebRTC] [session 33f0a05b] closed: no one is publishing to path 'center'
+2026/06/06 23:05:04 INF [WebRTC] [session 60b6dc41] created by 192.168.1.117:48918
+2026/06/06 23:05:04 INF [WebRTC] [session 60b6dc41] closed: no one is publishing to path 'center'
+2026/06/06 23:05:04 INF [WebRTC] [session 316c2380] created by 192.168.1.117:48918
+2026/06/06 23:05:04 INF [WebRTC] [session 316c2380] closed: no one is publishing to path 'center'
+2026/06/06 23:05:05 INF [WebRTC] [session fdd530b5] created by 192.168.1.101:47506
+2026/06/06 23:05:05 INF [WebRTC] [session fdd530b5] closed: no one is publishing to path 'center'
+2026/06/06 23:05:06 INF [WebRTC] [session cbeac797] created by 192.168.1.117:48918
+2026/06/06 23:05:06 INF [WebRTC] [session cbeac797] closed: no one is publishing to path 'center'
+2026/06/06 23:05:07 INF [WebRTC] [session d39a640a] created by 192.168.1.101:47506
+2026/06/06 23:05:07 INF [WebRTC] [session d39a640a] closed: no one is publishing to path 'center'
+2026/06/06 23:05:07 INF [WebRTC] [session d1b0707b] created by 192.168.1.117:48918
+2026/06/06 23:05:07 INF [WebRTC] [session d1b0707b] closed: no one is publishing to path 'center'
+2026/06/06 23:05:08 INF [WebRTC] [session a9df1648] created by 192.168.1.117:48918
+2026/06/06 23:05:08 INF [WebRTC] [session a9df1648] closed: no one is publishing to path 'center'
+2026/06/06 23:05:09 INF [WebRTC] [session 758decbe] created by 192.168.1.101:47506
+2026/06/06 23:05:09 INF [WebRTC] [session 758decbe] closed: no one is publishing to path 'center'
+2026/06/06 23:05:10 INF [WebRTC] [session cc147244] created by 192.168.1.117:48918
+2026/06/06 23:05:10 INF [WebRTC] [session cc147244] closed: no one is publishing to path 'center'
+2026/06/06 23:05:10 INF [WebRTC] [session f2a2360c] created by 192.168.1.117:48918
+2026/06/06 23:05:10 INF [WebRTC] [session f2a2360c] closed: no one is publishing to path 'center'
+2026/06/06 23:05:11 INF [WebRTC] [session 47e3115c] created by 192.168.1.101:47506
+2026/06/06 23:05:11 INF [WebRTC] [session 47e3115c] closed: no one is publishing to path 'center'
+2026/06/06 23:05:13 INF [WebRTC] [session 975666be] created by 192.168.1.117:48918
+2026/06/06 23:05:13 INF [WebRTC] [session 975666be] closed: no one is publishing to path 'center'
+2026/06/06 23:05:13 INF [WebRTC] [session 026e95de] created by 192.168.1.117:48918
+2026/06/06 23:05:13 INF [WebRTC] [session 026e95de] closed: no one is publishing to path 'center'
+2026/06/06 23:05:14 INF [WebRTC] [session ac776292] created by 192.168.1.101:47506
+2026/06/06 23:05:14 INF [WebRTC] [session ac776292] closed: no one is publishing to path 'center'
+2026/06/06 23:05:15 INF [WebRTC] [session d3b3e3eb] created by 192.168.1.117:48918
+2026/06/06 23:05:15 INF [WebRTC] [session d3b3e3eb] closed: no one is publishing to path 'center'
+2026/06/06 23:05:16 INF [WebRTC] [session 5cb626bf] created by 192.168.1.101:47506
+2026/06/06 23:05:16 INF [WebRTC] [session 5cb626bf] closed: no one is publishing to path 'center'
+2026/06/06 23:05:16 INF [WebRTC] [session c965c23f] created by 192.168.1.117:48918
+2026/06/06 23:05:16 INF [WebRTC] [session c965c23f] closed: no one is publishing to path 'center'
+2026/06/06 23:05:17 INF [WebRTC] [session 9594f814] created by 192.168.1.117:48918
+2026/06/06 23:05:17 INF [WebRTC] [session 9594f814] closed: no one is publishing to path 'center'
+2026/06/06 23:05:18 INF [WebRTC] [session d57713a1] created by 192.168.1.101:47506
+2026/06/06 23:05:18 INF [WebRTC] [session d57713a1] closed: no one is publishing to path 'center'
+2026/06/06 23:05:19 INF [WebRTC] [session 6fa1e8fb] created by 192.168.1.117:48918
+2026/06/06 23:05:19 INF [WebRTC] [session 6fa1e8fb] closed: no one is publishing to path 'center'
+2026/06/06 23:05:19 INF [WebRTC] [session a992918e] created by 192.168.1.117:48918
+2026/06/06 23:05:19 INF [WebRTC] [session a992918e] closed: no one is publishing to path 'center'
+2026/06/06 23:05:20 INF [WebRTC] [session 985841d8] created by 192.168.1.101:47506
+2026/06/06 23:05:20 INF [WebRTC] [session 985841d8] closed: no one is publishing to path 'center'
+2026/06/06 23:05:21 INF [WebRTC] [session 1b64d728] created by 192.168.1.117:48918
+2026/06/06 23:05:21 INF [WebRTC] [session 1b64d728] closed: no one is publishing to path 'center'
+2026/06/06 23:05:22 INF [WebRTC] [session 9940acdb] created by 192.168.1.101:47506
+2026/06/06 23:05:22 INF [WebRTC] [session 9940acdb] closed: no one is publishing to path 'center'
+2026/06/06 23:05:22 INF [WebRTC] [session 2f7eeb16] created by 192.168.1.117:48918
+2026/06/06 23:05:22 INF [WebRTC] [session 2f7eeb16] closed: no one is publishing to path 'center'
+2026/06/06 23:05:23 INF [WebRTC] [session 6924af44] created by 192.168.1.117:48918
+2026/06/06 23:05:23 INF [WebRTC] [session 6924af44] closed: no one is publishing to path 'center'
+2026/06/06 23:05:24 INF [WebRTC] [session 2cc45a73] created by 192.168.1.101:47506
+2026/06/06 23:05:24 INF [WebRTC] [session 2cc45a73] closed: no one is publishing to path 'center'
+2026/06/06 23:05:25 INF [WebRTC] [session 830690d6] created by 192.168.1.117:48918
+2026/06/06 23:05:25 INF [WebRTC] [session 830690d6] closed: no one is publishing to path 'center'
+2026/06/06 23:05:25 INF [WebRTC] [session abafcab9] created by 192.168.1.117:48918
+2026/06/06 23:05:25 INF [WebRTC] [session abafcab9] closed: no one is publishing to path 'center'
+2026/06/06 23:05:26 INF [WebRTC] [session 88169bb2] created by 192.168.1.101:47506
+2026/06/06 23:05:26 INF [WebRTC] [session 88169bb2] closed: no one is publishing to path 'center'
+2026/06/06 23:05:27 INF [WebRTC] [session 7368a7b1] created by 192.168.1.117:48918
+2026/06/06 23:05:27 INF [WebRTC] [session 7368a7b1] closed: no one is publishing to path 'center'
+2026/06/06 23:05:28 INF [RTSP] [conn 127.0.0.1:43518] opened
+2026/06/06 23:05:28 INF [RTSP] [conn 127.0.0.1:43520] opened
+2026/06/06 23:05:28 INF [RTSP] [session 66d6ad6a] created by 127.0.0.1:43518
+2026/06/06 23:05:28 INF [RTSP] [session 66d6ad6a] is publishing to path 'entrance', 1 track (H264)
+2026/06/06 23:05:28 INF [RTSP] [session 9ca70c6a] created by 127.0.0.1:43520
+2026/06/06 23:05:28 INF [RTSP] [session 9ca70c6a] is publishing to path 'center', 1 track (H264)
+2026/06/06 23:05:28 INF [RTSP] [conn 127.0.0.1:43536] opened
+2026/06/06 23:05:28 INF [RTSP] [conn 127.0.0.1:43546] opened
+2026/06/06 23:05:28 INF [RTSP] [conn 127.0.0.1:43558] opened
+2026/06/06 23:05:28 INF [RTSP] [conn 127.0.0.1:43566] opened
+2026/06/06 23:05:28 INF [RTSP] [session a0330102] created by 127.0.0.1:43536
+2026/06/06 23:05:28 INF [RTSP] [session a0330102] is publishing to path 'left', 1 track (H264)
+2026/06/06 23:05:28 INF [RTSP] [session 1cf89924] created by 127.0.0.1:43558
+2026/06/06 23:05:28 INF [RTSP] [session 6213d0e1] created by 127.0.0.1:43546
+2026/06/06 23:05:28 INF [RTSP] [session 57841c24] created by 127.0.0.1:43566
+2026/06/06 23:05:28 INF [RTSP] [session 1cf89924] is publishing to path 'behind', 1 track (H264)
+2026/06/06 23:05:28 INF [RTSP] [session 6213d0e1] is publishing to path 'garage', 1 track (H264)
+2026/06/06 23:05:28 INF [RTSP] [session 57841c24] is publishing to path 'gate', 1 track (H264)
+2026/06/06 23:05:28 INF [WebRTC] [session 50c4cca2] created by 192.168.1.101:47506
+2026/06/06 23:05:28 INF [WebRTC] [session 50c4cca2] peer connection established, local candidate: host/udp/192.168.1.134/8189, remote candidate: prflx/udp/192.168.1.101/48697
+2026/06/06 23:05:28 INF [WebRTC] [session 50c4cca2] is reading from path 'center', 1 track (H264)
+2026/06/06 23:05:28 INF [WebRTC] [session 54fd7a60] created by 192.168.1.117:48918
+2026/06/06 23:05:28 INF [WebRTC] [session 54fd7a60] peer connection established, local candidate: host/udp/192.168.1.134/8189, remote candidate: prflx/udp/192.168.1.117/39385
+2026/06/06 23:05:28 INF [WebRTC] [session 54fd7a60] is reading from path 'center', 1 track (H264)
+2026/06/06 23:05:29 INF [WebRTC] [session 9af29a25] created by 192.168.1.117:48918
+2026/06/06 23:05:29 INF [WebRTC] [session 9af29a25] peer connection established, local candidate: host/udp/192.168.1.134/8189, remote candidate: prflx/udp/192.168.1.117/46109
+2026/06/06 23:05:29 INF [WebRTC] [session 9af29a25] is reading from path 'center', 1 track (H264)
+2026/06/06 23:05:35 INF [WebRTC] [session 6d302d0f] created by 192.168.1.101:47506
+2026/06/06 23:05:35 INF [WebRTC] [session 6d302d0f] peer connection established, local candidate: host/udp/192.168.1.134/8189, remote candidate: prflx/udp/192.168.1.101/43122
+2026/06/06 23:05:35 INF [WebRTC] [session 6d302d0f] is reading from path 'center', 1 track (H264)
+2026/06/06 23:05:41 INF [WebRTC] [session 50c4cca2] closed: peer connection closed
+2026/06/06 23:05:50 INF [RTSP] [session a0330102] destroyed: torn down by 127.0.0.1:43536
+2026/06/06 23:05:50 INF [RTSP] [conn 127.0.0.1:43536] closed: EOF
+2026/06/06 23:05:50 INF [RTSP] [session 57841c24] destroyed: torn down by 127.0.0.1:43566
+2026/06/06 23:05:50 INF [RTSP] [conn 127.0.0.1:43566] closed: EOF
+2026/06/06 23:05:50 INF [RTSP] [session 6213d0e1] destroyed: torn down by 127.0.0.1:43546
+2026/06/06 23:05:50 INF [RTSP] [conn 127.0.0.1:43546] closed: EOF
+2026/06/06 23:05:50 INF [RTSP] [session 1cf89924] destroyed: torn down by 127.0.0.1:43558
+2026/06/06 23:05:50 INF [RTSP] [conn 127.0.0.1:43558] closed: EOF
+2026/06/06 23:05:51 INF [RTSP] [session 66d6ad6a] destroyed: torn down by 127.0.0.1:43518
+2026/06/06 23:05:51 INF [RTSP] [conn 127.0.0.1:43518] closed: EOF
+2026/06/06 23:05:51 INF [RTSP] [session 9ca70c6a] destroyed: torn down by 127.0.0.1:43520
+2026/06/06 23:05:51 INF [RTSP] [conn 127.0.0.1:43520] closed: EOF
+2026/06/06 23:05:51 INF [WebRTC] [session 9af29a25] closed: terminated
+2026/06/06 23:05:51 INF [WebRTC] [session 6d302d0f] closed: terminated
+2026/06/06 23:05:51 INF [WebRTC] [session 54fd7a60] closed: terminated
+2026/06/06 23:05:59 INF [WebRTC] [session 4187c7cb] created by 192.168.1.117:48918
+2026/06/06 23:05:59 INF [WebRTC] [session 4187c7cb] closed: no one is publishing to path 'center'
+2026/06/06 23:05:59 INF [WebRTC] [session 0da21403] created by 192.168.1.117:48918
+2026/06/06 23:05:59 INF [WebRTC] [session 0da21403] closed: no one is publishing to path 'center'
+2026/06/06 23:06:00 INF [WebRTC] [session a627342c] created by 192.168.1.101:47506
+2026/06/06 23:06:00 INF [WebRTC] [session a627342c] closed: no one is publishing to path 'center'
+2026/06/06 23:06:02 INF [WebRTC] [session 1d7054ad] created by 192.168.1.117:48918
+2026/06/06 23:06:02 INF [WebRTC] [session 1d7054ad] closed: no one is publishing to path 'center'
+2026/06/06 23:06:02 INF [WebRTC] [session 49983df0] created by 192.168.1.101:47506
+2026/06/06 23:06:02 INF [WebRTC] [session 49983df0] closed: no one is publishing to path 'center'
+2026/06/06 23:06:02 INF [WebRTC] [session 72a1a36d] created by 192.168.1.117:48918
+2026/06/06 23:06:02 INF [WebRTC] [session 72a1a36d] closed: no one is publishing to path 'center'
+2026/06/06 23:06:04 INF [WebRTC] [session d2bd18a2] created by 192.168.1.117:48918
+2026/06/06 23:06:04 INF [WebRTC] [session d2bd18a2] closed: no one is publishing to path 'center'
+2026/06/06 23:06:04 INF [WebRTC] [session a264edf0] created by 192.168.1.101:47506
+2026/06/06 23:06:04 INF [WebRTC] [session a264edf0] closed: no one is publishing to path 'center'
+2026/06/06 23:06:05 INF [WebRTC] [session 5259b67a] created by 192.168.1.117:48918
+2026/06/06 23:06:05 INF [WebRTC] [session 5259b67a] closed: no one is publishing to path 'center'
+2026/06/06 23:06:06 INF [WebRTC] [session a392a1c6] created by 192.168.1.117:48918
+2026/06/06 23:06:06 INF [WebRTC] [session a392a1c6] closed: no one is publishing to path 'center'
+2026/06/06 23:06:06 INF [WebRTC] [session 236ce3c3] created by 192.168.1.101:47506
+2026/06/06 23:06:06 INF [WebRTC] [session 236ce3c3] closed: no one is publishing to path 'center'
+2026/06/06 23:06:08 INF [WebRTC] [session 1c8d49bd] created by 192.168.1.117:48918
+2026/06/06 23:06:08 INF [WebRTC] [session 1c8d49bd] closed: no one is publishing to path 'center'
+2026/06/06 23:06:08 INF [WebRTC] [session de919b65] created by 192.168.1.101:47506
+2026/06/06 23:06:08 INF [WebRTC] [session de919b65] closed: no one is publishing to path 'center'
+2026/06/06 23:06:08 INF [WebRTC] [session 9c4afee7] created by 192.168.1.117:48918
+2026/06/06 23:06:08 INF [WebRTC] [session 9c4afee7] closed: no one is publishing to path 'center'
+2026/06/06 23:06:10 INF [WebRTC] [session 505d9cc5] created by 192.168.1.117:48918
+2026/06/06 23:06:10 INF [WebRTC] [session 505d9cc5] closed: no one is publishing to path 'center'
+2026/06/06 23:06:10 INF [WebRTC] [session 6b61448f] created by 192.168.1.101:47506
+2026/06/06 23:06:10 INF [WebRTC] [session 6b61448f] closed: no one is publishing to path 'center'
+2026/06/06 23:06:11 INF [WebRTC] [session 3c450057] created by 192.168.1.117:48918
+2026/06/06 23:06:11 INF [WebRTC] [session 3c450057] closed: no one is publishing to path 'center'
+2026/06/06 23:06:12 INF [WebRTC] [session 8d924595] created by 192.168.1.117:48918
+2026/06/06 23:06:12 INF [WebRTC] [session 8d924595] closed: no one is publishing to path 'center'
+2026/06/06 23:06:12 INF [WebRTC] [session 5343cd3a] created by 192.168.1.101:47506
+2026/06/06 23:06:12 INF [WebRTC] [session 5343cd3a] closed: no one is publishing to path 'center'
+2026/06/06 23:06:14 INF [WebRTC] [session efe13e4b] created by 192.168.1.117:48918
+2026/06/06 23:06:14 INF [WebRTC] [session efe13e4b] closed: no one is publishing to path 'center'
+2026/06/06 23:06:14 INF [WebRTC] [session 09ec8630] created by 192.168.1.117:48918
+2026/06/06 23:06:14 INF [WebRTC] [session 09ec8630] closed: no one is publishing to path 'center'
+2026/06/06 23:06:14 INF [WebRTC] [session aab9a455] created by 192.168.1.101:47506
+2026/06/06 23:06:14 INF [WebRTC] [session aab9a455] closed: no one is publishing to path 'center'
+2026/06/06 23:06:16 INF [WebRTC] [session a290ba6a] created by 192.168.1.117:48918
+2026/06/06 23:06:16 INF [WebRTC] [session a290ba6a] closed: no one is publishing to path 'center'
+2026/06/06 23:06:17 INF [WebRTC] [session 0e7a613c] created by 192.168.1.101:47506
+2026/06/06 23:06:17 INF [WebRTC] [session 0e7a613c] closed: no one is publishing to path 'center'
+2026/06/06 23:06:17 INF [WebRTC] [session 2f694c9f] created by 192.168.1.117:48918
+2026/06/06 23:06:17 INF [WebRTC] [session 2f694c9f] closed: no one is publishing to path 'center'
+2026/06/06 23:06:18 INF [WebRTC] [session b355f363] created by 192.168.1.117:48918
+2026/06/06 23:06:18 INF [WebRTC] [session b355f363] closed: no one is publishing to path 'center'
+2026/06/06 23:06:19 INF [WebRTC] [session deb81ac1] created by 192.168.1.101:47506
+2026/06/06 23:06:19 INF [WebRTC] [session deb81ac1] closed: no one is publishing to path 'center'
+2026/06/06 23:06:20 INF [WebRTC] [session e61f150a] created by 192.168.1.117:48918
+2026/06/06 23:06:20 INF [WebRTC] [session e61f150a] closed: no one is publishing to path 'center'
+2026/06/06 23:06:20 INF [WebRTC] [session 6dce7c88] created by 192.168.1.117:48918
+2026/06/06 23:06:20 INF [WebRTC] [session 6dce7c88] closed: no one is publishing to path 'center'
+2026/06/06 23:06:21 INF [WebRTC] [session a737349e] created by 192.168.1.101:47506
+2026/06/06 23:06:21 INF [WebRTC] [session a737349e] closed: no one is publishing to path 'center'
+2026/06/06 23:06:22 INF [WebRTC] [session 33aab5db] created by 192.168.1.117:48918
+2026/06/06 23:06:23 INF [WebRTC] [session 4827a4ab] created by 192.168.1.101:47506
+2026/06/06 23:06:23 INF [WebRTC] [session 4827a4ab] closed: no one is publishing to path 'center'
+2026/06/06 23:06:23 INF [WebRTC] [session 33aab5db] closed: terminated
+2026/06/06 23:06:23 INF [WebRTC] [session 417f5085] created by 192.168.1.117:48918
+2026/06/06 23:06:23 INF [WebRTC] [session 417f5085] closed: no one is publishing to path 'center'
+2026/06/06 23:06:25 INF [WebRTC] [session fa8f1a59] created by 192.168.1.117:48918
+2026/06/06 23:06:25 INF [WebRTC] [session fa8f1a59] closed: no one is publishing to path 'center'
+2026/06/06 23:06:25 INF [WebRTC] [session 05e6696b] created by 192.168.1.101:47506
+2026/06/06 23:06:25 INF [WebRTC] [session 05e6696b] closed: no one is publishing to path 'center'
+2026/06/06 23:06:26 INF [WebRTC] [session 358a547a] created by 192.168.1.117:48918
+2026/06/06 23:06:26 INF [WebRTC] [session 358a547a] closed: no one is publishing to path 'center'
+2026/06/06 23:06:27 INF [WebRTC] [session f82b20e8] created by 192.168.1.117:48918
+2026/06/06 23:06:27 INF [WebRTC] [session f82b20e8] closed: no one is publishing to path 'center'
+2026/06/06 23:06:27 INF [WebRTC] [session 376d56dd] created by 192.168.1.101:47506
+2026/06/06 23:06:27 INF [WebRTC] [session 376d56dd] closed: no one is publishing to path 'center'
+2026/06/06 23:06:29 INF [WebRTC] [session 83c49e17] created by 192.168.1.117:48918
+2026/06/06 23:06:29 INF [WebRTC] [session 83c49e17] closed: no one is publishing to path 'center'
+2026/06/06 23:06:29 INF [WebRTC] [session 773c0374] created by 192.168.1.117:48918
+2026/06/06 23:06:29 INF [WebRTC] [session 773c0374] closed: no one is publishing to path 'center'
+2026/06/06 23:06:30 INF [WebRTC] [session cb1adead] created by 192.168.1.101:47506
+2026/06/06 23:06:30 INF [WebRTC] [session cb1adead] closed: no one is publishing to path 'center'
+2026/06/06 23:06:30 INF [RTSP] [conn 127.0.0.1:41114] opened
+2026/06/06 23:06:30 INF [RTSP] [session 6be597dc] created by 127.0.0.1:41114
+2026/06/06 23:06:30 INF [RTSP] [session 6be597dc] is publishing to path 'center', 1 track (H264)
+2026/06/06 23:06:30 INF [RTSP] [conn 127.0.0.1:41118] opened
+2026/06/06 23:06:30 INF [RTSP] [conn 127.0.0.1:41126] opened
+2026/06/06 23:06:30 INF [RTSP] [conn 127.0.0.1:41128] opened
+2026/06/06 23:06:30 INF [RTSP] [session b0f8ab26] created by 127.0.0.1:41118
+2026/06/06 23:06:30 INF [RTSP] [session 76efd434] created by 127.0.0.1:41126
+2026/06/06 23:06:30 INF [RTSP] [session b0f8ab26] is publishing to path 'entrance', 1 track (H264)
+2026/06/06 23:06:30 INF [RTSP] [session 76efd434] is publishing to path 'gate', 1 track (H264)
+2026/06/06 23:06:30 INF [RTSP] [conn 127.0.0.1:41136] opened
+2026/06/06 23:06:30 INF [RTSP] [conn 127.0.0.1:41138] opened
+2026/06/06 23:06:30 INF [RTSP] [session 69c6c995] created by 127.0.0.1:41128
+2026/06/06 23:06:30 INF [RTSP] [session 69c6c995] is publishing to path 'left', 1 track (H264)
+2026/06/06 23:06:30 INF [RTSP] [session 2c923620] created by 127.0.0.1:41136
+2026/06/06 23:06:30 INF [RTSP] [session 737370af] created by 127.0.0.1:41138
+2026/06/06 23:06:30 INF [RTSP] [session 2c923620] is publishing to path 'garage', 1 track (H264)
+2026/06/06 23:06:30 INF [RTSP] [session 737370af] is publishing to path 'behind', 1 track (H264)
+2026/06/06 23:06:30 INF [WebRTC] [session ae93b817] created by 192.168.1.101:47506
+2026/06/06 23:06:30 INF [WebRTC] [session ae93b817] peer connection established, local candidate: host/udp/192.168.1.134/8189, remote candidate: prflx/udp/192.168.1.101/40172
+2026/06/06 23:06:30 INF [WebRTC] [session ae93b817] is reading from path 'center', 1 track (H264)
+2026/06/06 23:06:31 INF [WebRTC] [session a6a4f4c7] created by 192.168.1.117:48918
+2026/06/06 23:06:31 INF [WebRTC] [session a6a4f4c7] peer connection established, local candidate: host/udp/192.168.1.134/8189, remote candidate: prflx/udp/192.168.1.117/43729
+2026/06/06 23:06:31 INF [WebRTC] [session a6a4f4c7] is reading from path 'center', 1 track (H264)
+2026/06/06 23:06:32 INF [WebRTC] [session 152d5747] created by 192.168.1.117:48918
+2026/06/06 23:06:32 INF [WebRTC] [session 152d5747] peer connection established, local candidate: host/udp/192.168.1.134/8189, remote candidate: prflx/udp/192.168.1.117/40238
+2026/06/06 23:06:32 INF [WebRTC] [session 152d5747] is reading from path 'center', 1 track (H264)
+2026/06/06 23:06:39 INF [WebRTC] [session 46748231] created by 192.168.1.117:48918
+2026/06/06 23:06:39 INF [WebRTC] [session 46748231] peer connection established, local candidate: host/udp/192.168.1.134/8189, remote candidate: prflx/udp/192.168.1.117/42192
+2026/06/06 23:06:39 INF [WebRTC] [session 46748231] is reading from path 'center', 1 track (H264)
+2026/06/06 23:06:44 INF [WebRTC] [session 152d5747] closed: peer connection closed
+2026/06/06 23:06:46 INF [WebRTC] [session 2ac589f2] created by 192.168.1.117:48918
+2026/06/06 23:06:46 INF [WebRTC] [session 78230694] created by 192.168.1.117:48918
+2026/06/06 23:06:46 INF [WebRTC] [session cbe60ffa] created by 192.168.1.117:32868
+2026/06/06 23:06:46 INF [WebRTC] [session 7b8a3935] created by 192.168.1.117:59192
+2026/06/06 23:06:46 INF [WebRTC] [session 2ac589f2] peer connection established, local candidate: host/udp/192.168.1.19/8189, remote candidate: prflx/udp/192.168.1.117/48945
+2026/06/06 23:06:46 INF [WebRTC] [session 2ac589f2] is reading from path 'center', 1 track (H264)
+2026/06/06 23:06:46 INF [WebRTC] [session 7b8a3935] peer connection established, local candidate: host/udp/192.168.1.134/8189, remote candidate: prflx/udp/192.168.1.117/36152
+2026/06/06 23:06:46 INF [WebRTC] [session 7b8a3935] is reading from path 'behind', 1 track (H264)
+2026/06/06 23:06:46 INF [WebRTC] [session 78230694] peer connection established, local candidate: host/udp/192.168.1.134/8189, remote candidate: prflx/udp/192.168.1.117/56312
+2026/06/06 23:06:46 INF [WebRTC] [session 78230694] is reading from path 'entrance', 1 track (H264)
+2026/06/06 23:06:46 INF [WebRTC] [session cbe60ffa] peer connection established, local candidate: host/udp/192.168.1.19/8189, remote candidate: prflx/udp/192.168.1.117/45008
+2026/06/06 23:06:46 INF [WebRTC] [session cbe60ffa] is reading from path 'left', 1 track (H264)
+2026/06/06 23:06:51 INF [WebRTC] [session a6a4f4c7] closed: peer connection closed
+2026/06/06 23:08:00 INF [RTSP] [session 6be597dc] destroyed: torn down by 127.0.0.1:41114
+2026/06/06 23:08:00 INF [RTSP] [conn 127.0.0.1:41114] closed: EOF
+2026/06/06 23:08:00 INF [WebRTC] [session 2ac589f2] closed: terminated
+2026/06/06 23:08:00 INF [WebRTC] [session ae93b817] closed: terminated
+2026/06/06 23:08:00 INF [WebRTC] [session 46748231] closed: terminated
+2026/06/06 23:08:00 INF [RTSP] [session b0f8ab26] destroyed: torn down by 127.0.0.1:41118
+2026/06/06 23:08:00 INF [RTSP] [conn 127.0.0.1:41118] closed: EOF
+2026/06/06 23:08:00 INF [WebRTC] [session 78230694] closed: terminated
+2026/06/06 23:08:00 INF [RTSP] [session 76efd434] destroyed: torn down by 127.0.0.1:41126
+2026/06/06 23:08:00 INF [RTSP] [conn 127.0.0.1:41126] closed: EOF
+2026/06/06 23:08:00 INF [RTSP] [session 69c6c995] destroyed: torn down by 127.0.0.1:41128
+2026/06/06 23:08:00 INF [RTSP] [conn 127.0.0.1:41128] closed: EOF
+2026/06/06 23:08:00 INF [WebRTC] [session cbe60ffa] closed: terminated
+2026/06/06 23:08:00 INF [RTSP] [session 2c923620] destroyed: torn down by 127.0.0.1:41136
+2026/06/06 23:08:00 INF [RTSP] [conn 127.0.0.1:41136] closed: EOF
+2026/06/06 23:08:00 INF [RTSP] [session 737370af] destroyed: torn down by 127.0.0.1:41138
+2026/06/06 23:08:00 INF [RTSP] [conn 127.0.0.1:41138] closed: EOF
+2026/06/06 23:08:00 INF [WebRTC] [session 7b8a3935] closed: terminated
+2026/06/06 23:08:07 INF [WebRTC] [session cbdf4d63] created by 192.168.1.117:59192
+2026/06/06 23:08:07 INF [WebRTC] [session cbdf4d63] closed: no one is publishing to path 'center'
+2026/06/06 23:08:08 INF [WebRTC] [session d721c14d] created by 192.168.1.117:59192
+2026/06/06 23:08:08 INF [WebRTC] [session d721c14d] closed: no one is publishing to path 'center'
+2026/06/06 23:08:09 INF [WebRTC] [session c567087e] created by 192.168.1.117:59192
+2026/06/06 23:08:09 INF [WebRTC] [session c567087e] closed: no one is publishing to path 'center'
+2026/06/06 23:08:09 INF [WebRTC] [session 053d9ef2] created by 192.168.1.117:32868
+2026/06/06 23:08:09 INF [WebRTC] [session 053d9ef2] closed: no one is publishing to path 'entrance'
+2026/06/06 23:08:09 INF [WebRTC] [session ed0f3ba6] created by 192.168.1.117:32868
+2026/06/06 23:08:09 INF [WebRTC] [session ed0f3ba6] closed: no one is publishing to path 'left'
+2026/06/06 23:08:09 INF [WebRTC] [session f5ab9ce2] created by 192.168.1.117:32868
+2026/06/06 23:08:09 INF [WebRTC] [session f5ab9ce2] closed: no one is publishing to path 'behind'
+2026/06/06 23:08:10 INF [WebRTC] [session c2b9cb96] created by 192.168.1.101:47506
+2026/06/06 23:08:10 INF [WebRTC] [session c2b9cb96] closed: no one is publishing to path 'center'
+2026/06/06 23:08:11 INF [WebRTC] [session 68ba0819] created by 192.168.1.117:32868
+2026/06/06 23:08:11 INF [WebRTC] [session 68ba0819] closed: no one is publishing to path 'center'
+2026/06/06 23:08:11 INF [WebRTC] [session 4b986ca1] created by 192.168.1.117:32868
+2026/06/06 23:08:11 INF [WebRTC] [session 4b986ca1] closed: no one is publishing to path 'center'
+2026/06/06 23:08:12 INF [WebRTC] [session 0fb08a96] created by 192.168.1.117:59192
+2026/06/06 23:08:12 INF [WebRTC] [session 0fb08a96] closed: no one is publishing to path 'entrance'
+2026/06/06 23:08:12 INF [WebRTC] [session 0fd055e5] created by 192.168.1.117:59192
+2026/06/06 23:08:12 INF [WebRTC] [session 0fd055e5] closed: no one is publishing to path 'left'
+2026/06/06 23:08:12 INF [WebRTC] [session 97fda1ad] created by 192.168.1.117:59192
+2026/06/06 23:08:12 INF [WebRTC] [session 97fda1ad] closed: no one is publishing to path 'behind'
+2026/06/06 23:08:12 INF [WebRTC] [session 823cefb6] created by 192.168.1.101:47506
+2026/06/06 23:08:12 INF [WebRTC] [session 823cefb6] closed: no one is publishing to path 'center'
+2026/06/06 23:08:13 INF [WebRTC] [session 59564069] created by 192.168.1.117:59192
+2026/06/06 23:08:13 INF [WebRTC] [session 59564069] closed: no one is publishing to path 'center'
+2026/06/06 23:08:14 INF [WebRTC] [session c15f626b] created by 192.168.1.117:32868
+2026/06/06 23:08:14 INF [WebRTC] [session c15f626b] closed: no one is publishing to path 'entrance'
+2026/06/06 23:08:14 INF [WebRTC] [session 39853469] created by 192.168.1.117:32868
+2026/06/06 23:08:14 INF [WebRTC] [session 39853469] closed: no one is publishing to path 'left'
+2026/06/06 23:08:14 INF [WebRTC] [session 867540ac] created by 192.168.1.117:32868
+2026/06/06 23:08:14 INF [WebRTC] [session 867540ac] closed: no one is publishing to path 'behind'
+2026/06/06 23:08:14 INF [WebRTC] [session b29cd26a] created by 192.168.1.101:47506
+2026/06/06 23:08:14 INF [WebRTC] [session b29cd26a] closed: no one is publishing to path 'center'
+2026/06/06 23:08:14 INF [WebRTC] [session b7cfdf64] created by 192.168.1.117:32868
+2026/06/06 23:08:14 INF [WebRTC] [session b7cfdf64] closed: no one is publishing to path 'center'
+2026/06/06 23:08:15 INF [WebRTC] [session 08ca390c] created by 192.168.1.117:32868
+2026/06/06 23:08:15 INF [WebRTC] [session 08ca390c] closed: no one is publishing to path 'center'
+2026/06/06 23:08:16 INF [WebRTC] [session ed986124] created by 192.168.1.117:59192
+2026/06/06 23:08:16 INF [WebRTC] [session ed986124] closed: no one is publishing to path 'entrance'
+2026/06/06 23:08:16 INF [WebRTC] [session c099265b] created by 192.168.1.117:59192
+2026/06/06 23:08:16 INF [WebRTC] [session c099265b] closed: no one is publishing to path 'left'
+2026/06/06 23:08:16 INF [WebRTC] [session 0faca413] created by 192.168.1.117:59192
+2026/06/06 23:08:16 INF [WebRTC] [session 0faca413] closed: no one is publishing to path 'behind'
+2026/06/06 23:08:16 INF [WebRTC] [session 094d6389] created by 192.168.1.101:47506
+2026/06/06 23:08:16 INF [WebRTC] [session 094d6389] closed: no one is publishing to path 'center'
+2026/06/06 23:08:17 INF [WebRTC] [session e76efa74] created by 192.168.1.117:59192
+2026/06/06 23:08:17 INF [WebRTC] [session e76efa74] closed: no one is publishing to path 'center'
+2026/06/06 23:08:17 INF [WebRTC] [session 3fa2c9be] created by 192.168.1.117:59192
+2026/06/06 23:08:17 INF [WebRTC] [session 3fa2c9be] closed: no one is publishing to path 'center'
+2026/06/06 23:08:18 INF [WebRTC] [session f22498b1] created by 192.168.1.117:59192
+2026/06/06 23:08:18 INF [WebRTC] [session f22498b1] closed: no one is publishing to path 'entrance'
+2026/06/06 23:08:18 INF [WebRTC] [session 75a771db] created by 192.168.1.117:59192
+2026/06/06 23:08:18 INF [WebRTC] [session 75a771db] closed: no one is publishing to path 'left'
+2026/06/06 23:08:18 INF [WebRTC] [session 10e25047] created by 192.168.1.117:59192
+2026/06/06 23:08:18 INF [WebRTC] [session 10e25047] closed: no one is publishing to path 'behind'
+2026/06/06 23:08:18 INF [WebRTC] [session 10cb0429] created by 192.168.1.101:47506
+2026/06/06 23:08:18 INF [WebRTC] [session 10cb0429] closed: no one is publishing to path 'center'
+2026/06/06 23:08:19 INF [RTSP] [conn 127.0.0.1:36180] opened
+2026/06/06 23:08:19 INF [RTSP] [session 32058f90] created by 127.0.0.1:36180
+2026/06/06 23:08:19 INF [RTSP] [session 32058f90] is publishing to path 'gate', 1 track (H264)
+2026/06/06 23:08:19 INF [RTSP] [conn 127.0.0.1:36194] opened
+2026/06/06 23:08:19 INF [RTSP] [conn 127.0.0.1:36202] opened
+2026/06/06 23:08:19 INF [RTSP] [session e6b2063d] created by 127.0.0.1:36194
+2026/06/06 23:08:19 INF [RTSP] [session e6b2063d] is publishing to path 'left', 1 track (H264)
+2026/06/06 23:08:19 INF [RTSP] [conn 127.0.0.1:36218] opened
+2026/06/06 23:08:19 INF [RTSP] [conn 127.0.0.1:36230] opened
+2026/06/06 23:08:19 INF [RTSP] [session d06659d5] created by 127.0.0.1:36202
+2026/06/06 23:08:19 INF [RTSP] [session d06659d5] is publishing to path 'garage', 1 track (H264)
+2026/06/06 23:08:19 INF [RTSP] [conn 127.0.0.1:36242] opened
+2026/06/06 23:08:19 INF [RTSP] [session 6be184a5] created by 127.0.0.1:36218
+2026/06/06 23:08:19 INF [RTSP] [session 6be184a5] is publishing to path 'entrance', 1 track (H264)
+2026/06/06 23:08:19 INF [RTSP] [session 02c17664] created by 127.0.0.1:36230
+2026/06/06 23:08:19 INF [RTSP] [session 02c17664] is publishing to path 'behind', 1 track (H264)
+2026/06/06 23:08:19 INF [RTSP] [session da022ab1] created by 127.0.0.1:36242
+2026/06/06 23:08:19 INF [RTSP] [session da022ab1] is publishing to path 'center', 1 track (H264)
+2026/06/06 23:08:19 INF [WebRTC] [session 4e17b4d1] created by 192.168.1.117:59192
+2026/06/06 23:08:19 INF [WebRTC] [session 4e17b4d1] peer connection established, local candidate: host/udp/192.168.1.134/8189, remote candidate: prflx/udp/192.168.1.117/32842
+2026/06/06 23:08:19 INF [WebRTC] [session 4e17b4d1] is reading from path 'center', 1 track (H264)
+2026/06/06 23:08:20 INF [WebRTC] [session 3f246ac8] created by 192.168.1.117:59192
+2026/06/06 23:08:20 INF [WebRTC] [session 5507a318] created by 192.168.1.117:59192
+2026/06/06 23:08:20 INF [WebRTC] [session 71aef528] created by 192.168.1.117:59192
+2026/06/06 23:08:20 INF [WebRTC] [session 3f246ac8] peer connection established, local candidate: host/udp/192.168.1.134/8189, remote candidate: prflx/udp/192.168.1.117/50449
+2026/06/06 23:08:20 INF [WebRTC] [session 3f246ac8] is reading from path 'entrance', 1 track (H264)
+2026/06/06 23:08:20 INF [WebRTC] [session 5507a318] peer connection established, local candidate: host/udp/192.168.1.134/8189, remote candidate: prflx/udp/192.168.1.117/35202
+2026/06/06 23:08:20 INF [WebRTC] [session 5507a318] is reading from path 'left', 1 track (H264)
+2026/06/06 23:08:20 INF [WebRTC] [session 71aef528] peer connection established, local candidate: host/udp/192.168.1.19/8189, remote candidate: prflx/udp/192.168.1.117/42258
+2026/06/06 23:08:20 INF [WebRTC] [session 71aef528] is reading from path 'behind', 1 track (H264)
+2026/06/06 23:08:20 INF [WebRTC] [session 15188f26] created by 192.168.1.117:59192
+2026/06/06 23:08:20 INF [WebRTC] [session 15188f26] peer connection established, local candidate: host/udp/192.168.1.134/8189, remote candidate: prflx/udp/192.168.1.117/56291
+2026/06/06 23:08:20 INF [WebRTC] [session 15188f26] is reading from path 'center', 1 track (H264)
+2026/06/06 23:08:21 INF [WebRTC] [session df03372d] created by 192.168.1.101:47506
+2026/06/06 23:08:21 INF [WebRTC] [session df03372d] peer connection established, local candidate: host/udp/192.168.1.134/8189, remote candidate: prflx/udp/192.168.1.101/55381
+2026/06/06 23:08:21 INF [WebRTC] [session df03372d] is reading from path 'center', 1 track (H264)
+2026/06/06 23:08:23 INF [WebRTC] [session b55efb56] created by 192.168.1.117:59192
+2026/06/06 23:08:23 INF [WebRTC] [session 923c88e0] created by 192.168.1.117:59192
+2026/06/06 23:08:23 INF [WebRTC] [session e794faeb] created by 192.168.1.117:32868
+2026/06/06 23:08:23 INF [WebRTC] [session ca74e8cc] created by 192.168.1.117:48918
+2026/06/06 23:08:23 INF [WebRTC] [session e794faeb] peer connection established, local candidate: host/udp/192.168.1.134/8189, remote candidate: prflx/udp/192.168.1.117/37888
+2026/06/06 23:08:23 INF [WebRTC] [session e794faeb] is reading from path 'left', 1 track (H264)
+2026/06/06 23:08:23 INF [WebRTC] [session ca74e8cc] peer connection established, local candidate: host/udp/192.168.1.134/8189, remote candidate: prflx/udp/192.168.1.117/43643
+2026/06/06 23:08:23 INF [WebRTC] [session ca74e8cc] is reading from path 'behind', 1 track (H264)
+2026/06/06 23:08:23 INF [WebRTC] [session b55efb56] peer connection established, local candidate: host/udp/192.168.1.19/8189, remote candidate: prflx/udp/192.168.1.117/48386
+2026/06/06 23:08:23 INF [WebRTC] [session b55efb56] is reading from path 'center', 1 track (H264)
+2026/06/06 23:08:23 INF [WebRTC] [session 923c88e0] peer connection established, local candidate: host/udp/192.168.1.134/8189, remote candidate: prflx/udp/192.168.1.117/49412
+2026/06/06 23:08:23 INF [WebRTC] [session 923c88e0] is reading from path 'entrance', 1 track (H264)
+2026/06/06 23:08:28 INF [WebRTC] [session 3f246ac8] closed: peer connection closed
+2026/06/06 23:08:28 INF [WebRTC] [session 5507a318] closed: peer connection closed
+2026/06/06 23:08:28 INF [WebRTC] [session 71aef528] closed: peer connection closed
+2026/06/06 23:08:29 INF [WebRTC] [session 4e17b4d1] closed: peer connection closed
+2026/06/06 23:09:01 INF [WebRTC] [session ca6e8ac5] created by 192.168.1.101:47506
+2026/06/06 23:09:01 INF [WebRTC] [session ca6e8ac5] peer connection established, local candidate: host/udp/192.168.1.134/8189, remote candidate: prflx/udp/192.168.1.101/50640
+2026/06/06 23:09:01 INF [WebRTC] [session ca6e8ac5] is reading from path 'center', 1 track (H264)
+2026/06/06 23:09:07 INF [WebRTC] [session df03372d] closed: peer connection closed
+2026/06/06 23:09:59 INF [WebRTC] [session 18c13fa0] created by 192.168.1.101:47506
+2026/06/06 23:09:59 INF [WebRTC] [session 18c13fa0] peer connection established, local candidate: host/udp/192.168.1.19/8189, remote candidate: prflx/udp/192.168.1.101/48930
+2026/06/06 23:09:59 INF [WebRTC] [session 18c13fa0] is reading from path 'center', 1 track (H264)
+2026/06/06 23:10:06 INF [WebRTC] [session ca6e8ac5] closed: peer connection closed
+2026/06/06 23:10:16 INF [RTSP] [conn 127.0.0.1:36194] closed: EOF
+2026/06/06 23:10:16 INF [RTSP] [conn 127.0.0.1:36218] closed: EOF
+2026/06/06 23:10:16 INF [RTSP] [conn 127.0.0.1:36242] closed: EOF
+2026/06/06 23:10:16 INF [RTSP] [conn 127.0.0.1:36202] closed: EOF
+2026/06/06 23:10:16 INF [RTSP] [conn 127.0.0.1:36180] closed: EOF
+2026/06/06 23:10:16 INF [RTSP] [conn 127.0.0.1:36230] closed: EOF
+2026/06/06 23:10:23 INF [RTSP] [conn 127.0.0.1:42096] opened
+2026/06/06 23:10:23 INF [RTSP] [session 5deb12b7] created by 127.0.0.1:42096
+2026/06/06 23:10:23 INF [path center] closing existing publisher
+2026/06/06 23:10:23 INF [RTSP] [session da022ab1] destroyed: terminated
+2026/06/06 23:10:23 INF [WebRTC] [session b55efb56] closed: terminated
+2026/06/06 23:10:23 INF [WebRTC] [session 15188f26] closed: terminated
+2026/06/06 23:10:23 INF [WebRTC] [session 18c13fa0] closed: terminated
+2026/06/06 23:10:23 INF [RTSP] [session 5deb12b7] is publishing to path 'center', 1 track (H264)
+2026/06/06 23:10:23 INF [RTSP] [conn 127.0.0.1:42108] opened
+2026/06/06 23:10:23 INF [RTSP] [conn 127.0.0.1:42110] opened
+2026/06/06 23:10:23 INF [RTSP] [conn 127.0.0.1:42124] opened
+2026/06/06 23:10:23 INF [RTSP] [session 300e8ac7] created by 127.0.0.1:42108
+2026/06/06 23:10:23 INF [path entrance] closing existing publisher
+2026/06/06 23:10:23 INF [RTSP] [session 6be184a5] destroyed: terminated
+2026/06/06 23:10:23 INF [WebRTC] [session 923c88e0] closed: terminated
+2026/06/06 23:10:23 INF [RTSP] [conn 127.0.0.1:42132] opened
+2026/06/06 23:10:23 INF [RTSP] [session 300e8ac7] is publishing to path 'entrance', 1 track (H264)
+2026/06/06 23:10:23 INF [RTSP] [session 075e9c1c] created by 127.0.0.1:42110
+2026/06/06 23:10:23 INF [path gate] closing existing publisher
+2026/06/06 23:10:23 INF [RTSP] [session 32058f90] destroyed: terminated
+2026/06/06 23:10:23 INF [RTSP] [session 075e9c1c] is publishing to path 'gate', 1 track (H264)
+2026/06/06 23:10:23 INF [RTSP] [conn 127.0.0.1:42134] opened
+2026/06/06 23:10:23 INF [RTSP] [session 0ba79e7c] created by 127.0.0.1:42124
+2026/06/06 23:10:23 INF [path garage] closing existing publisher
+2026/06/06 23:10:23 INF [RTSP] [session d06659d5] destroyed: terminated
+2026/06/06 23:10:23 INF [RTSP] [session 0ba79e7c] is publishing to path 'garage', 1 track (H264)
+2026/06/06 23:10:23 INF [RTSP] [session 1edac950] created by 127.0.0.1:42132
+2026/06/06 23:10:23 INF [path behind] closing existing publisher
+2026/06/06 23:10:23 INF [RTSP] [session 02c17664] destroyed: terminated
+2026/06/06 23:10:23 INF [WebRTC] [session ca74e8cc] closed: terminated
+2026/06/06 23:10:23 INF [RTSP] [session 1edac950] is publishing to path 'behind', 1 track (H264)
+2026/06/06 23:10:23 INF [RTSP] [session 75959526] created by 127.0.0.1:42134
+2026/06/06 23:10:23 INF [path left] closing existing publisher
+2026/06/06 23:10:23 INF [RTSP] [session e6b2063d] destroyed: terminated
+2026/06/06 23:10:23 INF [WebRTC] [session e794faeb] closed: terminated
+2026/06/06 23:10:23 INF [RTSP] [session 75959526] is publishing to path 'left', 1 track (H264)
+2026/06/06 23:10:32 INF [WebRTC] [session c162e4d2] created by 192.168.1.117:59192
+2026/06/06 23:10:32 INF [WebRTC] [session f59af4bd] created by 192.168.1.117:59192
+2026/06/06 23:10:32 INF [WebRTC] [session 374c32cd] created by 192.168.1.117:48918
+2026/06/06 23:10:32 INF [WebRTC] [session ace2d516] created by 192.168.1.117:32868
+2026/06/06 23:10:32 INF [WebRTC] [session c162e4d2] peer connection established, local candidate: host/udp/192.168.1.134/8189, remote candidate: prflx/udp/192.168.1.117/37846
+2026/06/06 23:10:32 INF [WebRTC] [session c162e4d2] is reading from path 'center', 1 track (H264)
+2026/06/06 23:10:32 INF [WebRTC] [session f59af4bd] peer connection established, local candidate: host/udp/192.168.1.19/8189, remote candidate: prflx/udp/192.168.1.117/60345
+2026/06/06 23:10:32 INF [WebRTC] [session f59af4bd] is reading from path 'entrance', 1 track (H264)
+2026/06/06 23:10:32 INF [WebRTC] [session 374c32cd] peer connection established, local candidate: host/udp/192.168.1.19/8189, remote candidate: prflx/udp/192.168.1.117/56039
+2026/06/06 23:10:32 INF [WebRTC] [session 374c32cd] is reading from path 'left', 1 track (H264)
+2026/06/06 23:10:32 INF [WebRTC] [session ace2d516] peer connection established, local candidate: host/udp/192.168.1.109/8189, remote candidate: prflx/udp/192.168.1.117/41581
+2026/06/06 23:10:32 INF [WebRTC] [session ace2d516] is reading from path 'behind', 1 track (H264)
+2026/06/06 23:10:32 INF [WebRTC] [session bbad9637] created by 192.168.1.117:32868
+2026/06/06 23:10:32 INF [WebRTC] [session bbad9637] peer connection established, local candidate: host/udp/192.168.1.134/8189, remote candidate: prflx/udp/192.168.1.117/56032
+2026/06/06 23:10:32 INF [WebRTC] [session bbad9637] is reading from path 'center', 1 track (H264)
+2026/06/06 23:10:33 INF [WebRTC] [session 3c2dc185] created by 192.168.1.101:47506
+2026/06/06 23:10:33 INF [WebRTC] [session 3c2dc185] peer connection established, local candidate: host/udp/192.168.1.19/8189, remote candidate: prflx/udp/192.168.1.101/40861
+2026/06/06 23:10:33 INF [WebRTC] [session 3c2dc185] is reading from path 'center', 1 track (H264)
+2026/06/06 23:11:00 INF [WebRTC] [session 3e8a5eee] created by 192.168.1.117:32868
+2026/06/06 23:11:00 INF [WebRTC] [session 39ce15e6] created by 192.168.1.117:32868
+2026/06/06 23:11:00 INF [WebRTC] [session 855b34e8] created by 192.168.1.117:48918
+2026/06/06 23:11:00 INF [WebRTC] [session d864a3bd] created by 192.168.1.117:59192
+2026/06/06 23:11:00 INF [WebRTC] [session 3e8a5eee] peer connection established, local candidate: host/udp/192.168.1.19/8189, remote candidate: prflx/udp/192.168.1.117/51499
+2026/06/06 23:11:00 INF [WebRTC] [session 3e8a5eee] is reading from path 'center', 1 track (H264)
+2026/06/06 23:11:00 INF [WebRTC] [session 39ce15e6] peer connection established, local candidate: host/udp/192.168.1.134/8189, remote candidate: prflx/udp/192.168.1.117/38549
+2026/06/06 23:11:00 INF [WebRTC] [session 39ce15e6] is reading from path 'entrance', 1 track (H264)
+2026/06/06 23:11:00 INF [WebRTC] [session 855b34e8] peer connection established, local candidate: host/udp/192.168.1.19/8189, remote candidate: prflx/udp/192.168.1.117/59186
+2026/06/06 23:11:00 INF [WebRTC] [session 855b34e8] is reading from path 'left', 1 track (H264)
+2026/06/06 23:11:00 INF [WebRTC] [session d864a3bd] peer connection established, local candidate: host/udp/192.168.1.134/8189, remote candidate: prflx/udp/192.168.1.117/40382
+2026/06/06 23:11:00 INF [WebRTC] [session d864a3bd] is reading from path 'behind', 1 track (H264)
+2026/06/06 23:11:06 INF [WebRTC] [session c162e4d2] closed: peer connection closed
+2026/06/06 23:11:06 INF [WebRTC] [session 374c32cd] closed: peer connection closed
+2026/06/06 23:11:06 INF [WebRTC] [session f59af4bd] closed: peer connection closed
+2026/06/06 23:11:06 INF [WebRTC] [session ace2d516] closed: peer connection closed
+2026/06/06 23:11:27 INF [WebRTC] [session 0419a0d8] created by 192.168.1.117:49470
+2026/06/06 23:11:27 INF [WebRTC] [session af3849db] created by 192.168.1.117:49480
+2026/06/06 23:11:27 INF [WebRTC] [session aeafa7a1] created by 192.168.1.117:49496
+2026/06/06 23:11:27 INF [WebRTC] [session 0419a0d8] closed: codecs not supported by client
+2026/06/06 23:11:27 INF [WebRTC] [session 0bc938e8] created by 192.168.1.117:49498
+2026/06/06 23:11:27 INF [WebRTC] [session af3849db] closed: codecs not supported by client
+2026/06/06 23:11:27 INF [WebRTC] [session aeafa7a1] closed: codecs not supported by client
+2026/06/06 23:11:27 INF [WebRTC] [session 0bc938e8] closed: codecs not supported by client
+2026/06/06 23:11:29 INF [WebRTC] [session 462f7e1f] created by 192.168.1.117:49470
+2026/06/06 23:11:29 INF [WebRTC] [session 642b0045] created by 192.168.1.117:49496
+2026/06/06 23:11:29 INF [WebRTC] [session 714a93e3] created by 192.168.1.117:49498
+2026/06/06 23:11:29 INF [WebRTC] [session 462f7e1f] closed: codecs not supported by client
+2026/06/06 23:11:29 INF [WebRTC] [session 5b32a610] created by 192.168.1.117:49480
+2026/06/06 23:11:29 INF [WebRTC] [session 642b0045] closed: codecs not supported by client
+2026/06/06 23:11:29 INF [WebRTC] [session 714a93e3] closed: codecs not supported by client
+2026/06/06 23:11:29 INF [WebRTC] [session 5b32a610] closed: codecs not supported by client
+2026/06/06 23:11:55 INF [RTSP] [session 5deb12b7] destroyed: torn down by 127.0.0.1:42096
+2026/06/06 23:11:55 INF [RTSP] [conn 127.0.0.1:42096] closed: EOF
+2026/06/06 23:11:55 INF [WebRTC] [session 3c2dc185] closed: terminated
+2026/06/06 23:11:55 INF [WebRTC] [session 3e8a5eee] closed: terminated
+2026/06/06 23:11:55 INF [WebRTC] [session bbad9637] closed: terminated
+2026/06/06 23:11:55 INF [RTSP] [session 075e9c1c] destroyed: torn down by 127.0.0.1:42110
+2026/06/06 23:11:55 INF [RTSP] [conn 127.0.0.1:42110] closed: EOF
+2026/06/06 23:11:55 INF [RTSP] [session 300e8ac7] destroyed: torn down by 127.0.0.1:42108
+2026/06/06 23:11:55 INF [RTSP] [conn 127.0.0.1:42108] closed: EOF
+2026/06/06 23:11:55 INF [WebRTC] [session 39ce15e6] closed: terminated
+2026/06/06 23:11:55 INF [RTSP] [session 0ba79e7c] destroyed: torn down by 127.0.0.1:42124
+2026/06/06 23:11:55 INF [RTSP] [conn 127.0.0.1:42124] closed: EOF
+2026/06/06 23:11:55 INF [RTSP] [session 1edac950] destroyed: torn down by 127.0.0.1:42132
+2026/06/06 23:11:55 INF [RTSP] [conn 127.0.0.1:42132] closed: EOF
+2026/06/06 23:11:55 INF [WebRTC] [session d864a3bd] closed: terminated
+2026/06/06 23:11:55 INF [RTSP] [session 75959526] destroyed: torn down by 127.0.0.1:42134
+2026/06/06 23:11:55 INF [RTSP] [conn 127.0.0.1:42134] closed: EOF
+2026/06/06 23:11:55 INF [WebRTC] [session 855b34e8] closed: terminated
+2026/06/06 23:12:03 INF [WebRTC] [session 54dd2a28] created by 192.168.1.117:32868
+2026/06/06 23:12:03 INF [WebRTC] [session 54dd2a28] closed: no one is publishing to path 'center'
+2026/06/06 23:12:03 INF [WebRTC] [session 1ee86799] created by 192.168.1.117:32868
+2026/06/06 23:12:03 INF [WebRTC] [session 1ee86799] closed: no one is publishing to path 'entrance'
+2026/06/06 23:12:03 INF [WebRTC] [session e0028658] created by 192.168.1.117:32868
+2026/06/06 23:12:03 INF [WebRTC] [session e0028658] closed: no one is publishing to path 'left'
+2026/06/06 23:12:03 INF [WebRTC] [session 7ea410bc] created by 192.168.1.117:48918
+2026/06/06 23:12:03 INF [WebRTC] [session 7ea410bc] closed: no one is publishing to path 'behind'
+2026/06/06 23:12:04 INF [WebRTC] [session 08ea2360] created by 192.168.1.117:48918
+2026/06/06 23:12:04 INF [WebRTC] [session 08ea2360] closed: no one is publishing to path 'center'
+2026/06/06 23:12:05 INF [WebRTC] [session 11da1f8e] created by 192.168.1.117:48918
+2026/06/06 23:12:05 INF [WebRTC] [session 11da1f8e] closed: no one is publishing to path 'center'
+2026/06/06 23:12:05 INF [WebRTC] [session 3a22339d] created by 192.168.1.117:48918
+2026/06/06 23:12:05 INF [WebRTC] [session 3a22339d] closed: no one is publishing to path 'entrance'
+2026/06/06 23:12:05 INF [WebRTC] [session f051b4ab] created by 192.168.1.101:47506
+2026/06/06 23:12:05 INF [WebRTC] [session f051b4ab] closed: no one is publishing to path 'center'
+2026/06/06 23:12:05 INF [WebRTC] [session 79142eb2] created by 192.168.1.117:48918
+2026/06/06 23:12:05 INF [WebRTC] [session 79142eb2] closed: no one is publishing to path 'left'
+2026/06/06 23:12:05 INF [WebRTC] [session 7fd08784] created by 192.168.1.117:48918
+2026/06/06 23:12:05 INF [WebRTC] [session 7fd08784] closed: no one is publishing to path 'behind'
+2026/06/06 23:12:07 INF [WebRTC] [session 53bab14d] created by 192.168.1.117:32868
+2026/06/06 23:12:07 INF [WebRTC] [session 53bab14d] closed: no one is publishing to path 'center'
+2026/06/06 23:12:07 INF [WebRTC] [session 3ac3d2b8] created by 192.168.1.101:47506
+2026/06/06 23:12:07 INF [WebRTC] [session 3ac3d2b8] closed: no one is publishing to path 'center'
+2026/06/06 23:12:07 INF [WebRTC] [session 4f6ce2fb] created by 192.168.1.117:32868
+2026/06/06 23:12:07 INF [WebRTC] [session 4f6ce2fb] closed: no one is publishing to path 'entrance'
+2026/06/06 23:12:07 INF [WebRTC] [session 848761c3] created by 192.168.1.117:32868
+2026/06/06 23:12:07 INF [WebRTC] [session 848761c3] closed: no one is publishing to path 'left'
+2026/06/06 23:12:07 INF [WebRTC] [session 09f7005f] created by 192.168.1.117:32868
+2026/06/06 23:12:07 INF [WebRTC] [session 09f7005f] closed: no one is publishing to path 'behind'
+2026/06/06 23:12:07 INF [WebRTC] [session 3388edf9] created by 192.168.1.117:32868
+2026/06/06 23:12:07 INF [WebRTC] [session 3388edf9] closed: no one is publishing to path 'center'
+2026/06/06 23:12:09 INF [WebRTC] [session 912d5627] created by 192.168.1.117:32868
+2026/06/06 23:12:09 INF [WebRTC] [session 912d5627] closed: no one is publishing to path 'center'
+2026/06/06 23:12:09 INF [WebRTC] [session 5b7ac35b] created by 192.168.1.117:48918
+2026/06/06 23:12:09 INF [WebRTC] [session 5b7ac35b] closed: no one is publishing to path 'entrance'
+2026/06/06 23:12:09 INF [WebRTC] [session f9ca6427] created by 192.168.1.117:48918
+2026/06/06 23:12:09 INF [WebRTC] [session f9ca6427] closed: no one is publishing to path 'left'
+2026/06/06 23:12:09 INF [WebRTC] [session ddd8f0e9] created by 192.168.1.117:48918
+2026/06/06 23:12:09 INF [WebRTC] [session ddd8f0e9] closed: no one is publishing to path 'behind'
+2026/06/06 23:12:09 INF [WebRTC] [session adfc0c95] created by 192.168.1.101:47506
+2026/06/06 23:12:09 INF [WebRTC] [session adfc0c95] closed: no one is publishing to path 'center'
+2026/06/06 23:12:10 INF [WebRTC] [session 70e55aa4] created by 192.168.1.117:48918
+2026/06/06 23:12:10 INF [WebRTC] [session 70e55aa4] closed: no one is publishing to path 'center'
+2026/06/06 23:12:11 INF [WebRTC] [session 6f0d2bfe] created by 192.168.1.117:48918
+2026/06/06 23:12:11 INF [WebRTC] [session 6f0d2bfe] closed: no one is publishing to path 'center'
+2026/06/06 23:12:11 INF [WebRTC] [session 3acd605f] created by 192.168.1.117:32868
+2026/06/06 23:12:11 INF [WebRTC] [session 3acd605f] closed: no one is publishing to path 'entrance'
+2026/06/06 23:12:11 INF [WebRTC] [session 8fe8d26f] created by 192.168.1.117:32868
+2026/06/06 23:12:11 INF [WebRTC] [session 8fe8d26f] closed: no one is publishing to path 'left'
+2026/06/06 23:12:11 INF [WebRTC] [session ac046b37] created by 192.168.1.117:32868
+2026/06/06 23:12:11 INF [WebRTC] [session ac046b37] closed: no one is publishing to path 'behind'
+2026/06/06 23:12:11 INF [WebRTC] [session c50d6cf1] created by 192.168.1.101:47506
+2026/06/06 23:12:11 INF [WebRTC] [session c50d6cf1] closed: no one is publishing to path 'center'
+2026/06/06 23:12:13 INF [WebRTC] [session f57b05ad] created by 192.168.1.117:32868
+2026/06/06 23:12:13 INF [WebRTC] [session f57b05ad] closed: no one is publishing to path 'center'
+2026/06/06 23:12:13 INF [WebRTC] [session d4d32262] created by 192.168.1.117:32868
+2026/06/06 23:12:13 INF [WebRTC] [session d4d32262] closed: no one is publishing to path 'entrance'
+2026/06/06 23:12:13 INF [WebRTC] [session b7d944d1] created by 192.168.1.117:32868
+2026/06/06 23:12:13 INF [WebRTC] [session b7d944d1] closed: no one is publishing to path 'left'
+2026/06/06 23:12:13 INF [WebRTC] [session 5908301a] created by 192.168.1.117:32868
+2026/06/06 23:12:13 INF [WebRTC] [session 5908301a] closed: no one is publishing to path 'behind'
+2026/06/06 23:12:13 INF [WebRTC] [session 4046e1d9] created by 192.168.1.101:47506
+2026/06/06 23:12:13 INF [WebRTC] [session 4046e1d9] closed: no one is publishing to path 'center'
+2026/06/06 23:12:13 INF [WebRTC] [session 2ae05aad] created by 192.168.1.117:32868
+2026/06/06 23:12:13 INF [WebRTC] [session 2ae05aad] closed: no one is publishing to path 'center'
+2026/06/06 23:12:15 INF [WebRTC] [session 8c5967dc] created by 192.168.1.117:48918
+2026/06/06 23:12:15 INF [WebRTC] [session 8c5967dc] closed: no one is publishing to path 'center'
+2026/06/06 23:12:15 INF [WebRTC] [session ade35a6c] created by 192.168.1.117:48918
+2026/06/06 23:12:15 INF [WebRTC] [session ade35a6c] closed: no one is publishing to path 'entrance'
+2026/06/06 23:12:15 INF [WebRTC] [session 5543faee] created by 192.168.1.117:48918
+2026/06/06 23:12:15 INF [WebRTC] [session 5543faee] closed: no one is publishing to path 'left'
+2026/06/06 23:12:15 INF [WebRTC] [session 98d17838] created by 192.168.1.117:48918
+2026/06/06 23:12:15 INF [WebRTC] [session 98d17838] closed: no one is publishing to path 'behind'
+2026/06/06 23:12:16 INF [WebRTC] [session 744781b5] created by 192.168.1.101:47506
+2026/06/06 23:12:16 INF [WebRTC] [session 744781b5] closed: no one is publishing to path 'center'
+2026/06/06 23:12:16 INF [WebRTC] [session d6cf3771] created by 192.168.1.117:48918
+2026/06/06 23:12:16 INF [WebRTC] [session d6cf3771] closed: no one is publishing to path 'center'
+2026/06/06 23:12:17 INF [WebRTC] [session a11be428] created by 192.168.1.117:32868
+2026/06/06 23:12:17 INF [WebRTC] [session a11be428] closed: no one is publishing to path 'center'
+2026/06/06 23:12:17 INF [WebRTC] [session 17dfd103] created by 192.168.1.117:32868
+2026/06/06 23:12:17 INF [WebRTC] [session 17dfd103] closed: no one is publishing to path 'entrance'
+2026/06/06 23:12:17 INF [WebRTC] [session 685195f5] created by 192.168.1.117:32868
+2026/06/06 23:12:17 INF [WebRTC] [session 685195f5] closed: no one is publishing to path 'left'
+2026/06/06 23:12:17 INF [WebRTC] [session 51bdc5d1] created by 192.168.1.117:32868
+2026/06/06 23:12:17 INF [WebRTC] [session 51bdc5d1] closed: no one is publishing to path 'behind'
+2026/06/06 23:12:18 INF [WebRTC] [session 44af6122] created by 192.168.1.101:47506
+2026/06/06 23:12:18 INF [WebRTC] [session 44af6122] closed: no one is publishing to path 'center'
+2026/06/06 23:12:19 INF [WebRTC] [session e0b84f79] created by 192.168.1.117:32868
+2026/06/06 23:12:19 INF [WebRTC] [session e0b84f79] closed: no one is publishing to path 'center'
+2026/06/06 23:12:19 INF [WebRTC] [session fbe74e4a] created by 192.168.1.117:48918
+2026/06/06 23:12:19 INF [WebRTC] [session fbe74e4a] closed: no one is publishing to path 'center'
+2026/06/06 23:12:20 INF [WebRTC] [session 29737ba3] created by 192.168.1.117:48918
+2026/06/06 23:12:20 INF [WebRTC] [session 29737ba3] closed: no one is publishing to path 'entrance'
+2026/06/06 23:12:20 INF [WebRTC] [session 516f2497] created by 192.168.1.117:48918
+2026/06/06 23:12:20 INF [WebRTC] [session 516f2497] closed: no one is publishing to path 'left'
+2026/06/06 23:12:20 INF [WebRTC] [session b5430ba4] created by 192.168.1.117:48918
+2026/06/06 23:12:20 INF [WebRTC] [session b5430ba4] closed: no one is publishing to path 'behind'
+2026/06/06 23:12:20 INF [WebRTC] [session c4dff9c9] created by 192.168.1.101:47506
+2026/06/06 23:12:20 INF [WebRTC] [session c4dff9c9] closed: no one is publishing to path 'center'
+2026/06/06 23:12:22 INF [WebRTC] [session b16c1b2a] created by 192.168.1.117:32868
+2026/06/06 23:12:22 INF [WebRTC] [session b16c1b2a] closed: no one is publishing to path 'center'
+2026/06/06 23:12:22 INF [WebRTC] [session ed7c4f17] created by 192.168.1.117:32868
+2026/06/06 23:12:22 INF [WebRTC] [session ed7c4f17] closed: no one is publishing to path 'entrance'
+2026/06/06 23:12:22 INF [WebRTC] [session b0398e70] created by 192.168.1.117:32868
+2026/06/06 23:12:22 INF [WebRTC] [session b0398e70] closed: no one is publishing to path 'left'
+2026/06/06 23:12:22 INF [WebRTC] [session 707ab7e8] created by 192.168.1.117:32868
+2026/06/06 23:12:22 INF [WebRTC] [session 707ab7e8] closed: no one is publishing to path 'behind'
+2026/06/06 23:12:22 INF [WebRTC] [session 260a9279] created by 192.168.1.101:47506
+2026/06/06 23:12:22 INF [WebRTC] [session 260a9279] closed: no one is publishing to path 'center'
+2026/06/06 23:12:22 INF [WebRTC] [session f040bc7a] created by 192.168.1.117:32868
+2026/06/06 23:12:22 INF [WebRTC] [session f040bc7a] closed: no one is publishing to path 'center'
+2026/06/06 23:12:24 INF [WebRTC] [session 823b052b] created by 192.168.1.117:48918
+2026/06/06 23:12:24 INF [WebRTC] [session 823b052b] closed: no one is publishing to path 'center'
+2026/06/06 23:12:24 INF [WebRTC] [session b19d0f06] created by 192.168.1.117:48918
+2026/06/06 23:12:24 INF [WebRTC] [session b19d0f06] closed: no one is publishing to path 'entrance'
+2026/06/06 23:12:24 INF [WebRTC] [session cac5e0c2] created by 192.168.1.117:48918
+2026/06/06 23:12:24 INF [WebRTC] [session cac5e0c2] closed: no one is publishing to path 'left'
+2026/06/06 23:12:24 INF [WebRTC] [session a4735691] created by 192.168.1.117:48918
+2026/06/06 23:12:24 INF [WebRTC] [session a4735691] closed: no one is publishing to path 'behind'
+2026/06/06 23:12:24 INF [WebRTC] [session d8d4ada1] created by 192.168.1.101:47506
+2026/06/06 23:12:24 INF [WebRTC] [session d8d4ada1] closed: no one is publishing to path 'center'
