@@ -1,12 +1,12 @@
 [Unit]
-Description=CCTV YOLO Detector
+Description=CCTV Media Server
 After=network.target
 
 [Service]
 User=pi
-WorkingDirectory=/home/pi/cctv
+WorkingDirectory=/home/pi/cctv-mediamtx
 EnvironmentFile=/etc/cctv/credentials.env
-ExecStart=/bin/python3 -u  /home/pi/cctv_media/mediamtx/startc.sh
+ExecStart=/bin/python3 -u  /home/pi/cctv-mediamtx/startc.sh
           
 #ExecStart=/home/ops/cctv/PYEVO/bin/python3  -u /home/ops/cctv/cctv-image-detector.py
 Restart=always
