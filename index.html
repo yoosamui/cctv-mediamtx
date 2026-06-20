@@ -494,6 +494,7 @@ video {
 </div>
 
 <script>
+
 function setupHLS(videoId, streamName, delay) {
 
   setTimeout(() => {
@@ -504,57 +505,170 @@ function setupHLS(videoId, streamName, delay) {
     const url =
       `http://192.168.1.19:8888/${streamName}/index.m3u8`;
 
-    // Set connecting state
     if (liveIndicator) {
       liveIndicator.className = 'camera-live connecting';
       liveIndicator.querySelector('.label').textContent = 'CONNECTING';
     }
+
+    // ===== SAFARI =====
 
     if (video.canPlayType('application/vnd.apple.mpegurl')) {
 
       video.src = url;
 
       video.addEventListener('loadedmetadata', () => {
+
         if (liveIndicator) {
           liveIndicator.className = 'camera-live';
           liveIndicator.querySelector('.label').textContent = 'LIVE';
         }
+
         video.play().catch(() => {});
       });
 
       video.addEventListener('error', () => {
+
         if (liveIndicator) {
           liveIndicator.className = 'camera-live error';
           liveIndicator.querySelector('.label').textContent = 'ERROR';
         }
+
+        console.log(streamName + ': restarting native HLS');
+
+        setTimeout(() => {
+          video.load();
+        }, 5000);
       });
 
-    } else if (Hls.isSupported()) {
+      return;
+    }
 
-      const hls = new Hls({
-        lowLatencyMode: true,
-        backBufferLength: 30
-      });
+    // ===== HLS.JS =====
 
-      hls.loadSource(url);
-      hls.attachMedia(video);
+    if (!Hls.isSupported()) {
+      return;
+    }
 
-      hls.on(Hls.Events.MANIFEST_PARSED, () => {
+    const hls = new Hls({
+      lowLatencyMode: true,
+      backBufferLength: 10,
+      maxBufferLength: 5,
+      liveSyncDurationCount: 2,
+      liveMaxLatencyDurationCount: 4
+    });
+
+    hls.loadSource(url);
+    hls.attachMedia(video);
+
+    hls.on(Hls.Events.MANIFEST_PARSED, () => {
+
+      if (liveIndicator) {
+        liveIndicator.className = 'camera-live';
+        liveIndicator.querySelector('.label').textContent = 'LIVE';
+      }
+
+      video.play().catch(() => {});
+    });
+
+    hls.on(Hls.Events.ERROR, (event, data) => {
+
+      console.error(
+        `[${streamName}]`,
+        "type=", data.type,
+        "details=", data.details,
+        "fatal=", data.fatal
+      );
+
+      if (!data.fatal) {
+        return;
+      }
+
+      if (data.type === Hls.ErrorTypes.NETWORK_ERROR) {
+
+        console.log(streamName + ': recovering network error');
+
+        if (liveIndicator) {
+          liveIndicator.className = 'camera-live connecting';
+          liveIndicator.querySelector('.label').textContent = 'RECOVER';
+        }
+
+        hls.startLoad();
+        return;
+      }
+
+      if (data.type === Hls.ErrorTypes.MEDIA_ERROR) {
+
+        console.log(streamName + ': recovering media error');
+
+        if (liveIndicator) {
+          liveIndicator.className = 'camera-live connecting';
+          liveIndicator.querySelector('.label').textContent = 'RECOVER';
+        }
+
+        hls.recoverMediaError();
+        return;
+      }
+
+      console.log(streamName + ': rebuilding player');
+
+      if (liveIndicator) {
+        liveIndicator.className = 'camera-live error';
+        liveIndicator.querySelector('.label').textContent = 'RESTART';
+      }
+
+      hls.destroy();
+
+      setTimeout(() => {
+        setupHLS(videoId, streamName, 0);
+      }, 5000);
+    });
+
+    // ===== FREEZE WATCHDOG =====
+
+    let lastTime = 0;
+    let freezeCount = 0;
+
+    setInterval(() => {
+
+      if (video.paused || video.readyState < 2) {
+        return;
+      }
+
+      if (video.currentTime === lastTime) {
+
+        freezeCount++;
+
+        if (freezeCount >= 2) {
+
+          console.log(streamName + ': stream frozen');
+
+          if (liveIndicator) {
+            liveIndicator.className = 'camera-live connecting';
+            liveIndicator.querySelector('.label').textContent = 'RECONNECT';
+          }
+
+          hls.stopLoad();
+
+          setTimeout(() => {
+            hls.startLoad();
+          }, 1000);
+
+          freezeCount = 0;
+        }
+
+      } else {
+
+        freezeCount = 0;
+
         if (liveIndicator) {
           liveIndicator.className = 'camera-live';
           liveIndicator.querySelector('.label').textContent = 'LIVE';
         }
-        video.play().catch(() => {});
-      });
+      }
 
-      hls.on(Hls.Events.ERROR, (event, data) => {
-        console.error(streamName, data);
-        if (liveIndicator && data.fatal) {
-          liveIndicator.className = 'camera-live error';
-          liveIndicator.querySelector('.label').textContent = 'ERROR';
-        }
-      });
-    }
+      lastTime = video.currentTime;
+
+    }, 30000);
 
   }, delay);
 }
