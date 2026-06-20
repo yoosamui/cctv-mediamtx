@@ -411,19 +411,6 @@ video {
   <!-- ===== CAMERA GRID ===== -->
   <div class="grid">
 
- <div class="camera">
-      <div class="title">
-        <span class="camera-name">
-          <span class="status-dot"></span> Gate
-        </span>
-        <span class="camera-live" id="live-gate">
-          <span class="dot"></span>
-          <span class="label">LIVE</span>
-        </span>
-      </div>
-      <video id="gate-video" autoplay muted playsinline controls></video>
-    </div>
-
 
 
 
@@ -442,6 +429,31 @@ video {
     </div>
 
 
+ <div class="camera">
+      <div class="title">
+        <span class="camera-name">
+          <span class="status-dot"></span> Gate
+        </span>
+        <span class="camera-live" id="live-gate">
+          <span class="dot"></span>
+          <span class="label">LIVE</span>
+        </span>
+      </div>
+      <video id="gate-video" autoplay muted playsinline controls></video>
+    </div>
+
+  <div class="camera">
+      <div class="title">
+        <span class="camera-name">
+          <span class="status-dot"></span> Left
+        </span>
+        <span class="camera-live" id="live-left">
+          <span class="dot"></span>
+          <span class="label">LIVE</span>
+        </span>
+      </div>
+      <video id="left-video" autoplay muted playsinline controls></video>
+    </div>
 
     <div class="camera">
       <div class="title">
@@ -456,7 +468,9 @@ video {
       <video id="entrance-video" autoplay muted playsinline controls></video>
     </div>
 
- <div class="camera">
+
+    
+   <div class="camera">
       <div class="title">
         <span class="camera-name">
           <span class="status-dot"></span> Behind
@@ -468,8 +482,10 @@ video {
       </div>
       <video id="behind-video" autoplay muted playsinline controls></video>
     </div>
+
+   
     
-    <div class="camera">
+ <div class="camera">
       <div class="title">
         <span class="camera-name">
           <span class="status-dot"></span> Garage
@@ -481,20 +497,6 @@ video {
       </div>
       <video id="garage-video" autoplay muted playsinline controls></video>
     </div>
-
-    <div class="camera">
-      <div class="title">
-        <span class="camera-name">
-          <span class="status-dot"></span> Left
-        </span>
-        <span class="camera-live" id="live-left">
-          <span class="dot"></span>
-          <span class="label">LIVE</span>
-        </span>
-      </div>
-      <video id="left-video" autoplay muted playsinline controls></video>
-    </div>
-
 
   </div>
 
