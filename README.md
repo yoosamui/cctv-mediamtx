@@ -8,4 +8,7 @@ This multi-camera live surveillance dashboard connects to a MediaMTX streaming s
 
 Each camera stream is pulled via HLS (.m3u8) from a MediaMTX endpoint and rendered in HTML5 video players with automatic recovery, latency tuning, and status indicators.
 
+
+**http://RPI5-IP:8080/**
+
 <img width="1056" height="1052" alt="image" src="https://github.com/user-attachments/assets/62c37261-dd04-435c-8036-a14869c930c4" />
