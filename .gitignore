@@ -11,7 +11,7 @@
 #Testing Output folder
 .output/
 #Extension App-file
-
+*.gz
 *.app
 #Rapid Application Development File
 rad.json
