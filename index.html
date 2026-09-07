@@ -5,12 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CCTV Live Dashboard</title>
 
-<<<<<<< HEAD
-<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-=======
 <script defer src="vendor/hls-1.6.13.min.js"></script>
 <script defer src="live-player.js?v=1.3.0"></script>
->>>>>>> ca7ae3c (Add live playback recovery and camera controls)
 
 <style>
 /* ===== YOUR ORIGINAL CSS (UNCHANGED) ===== */
@@ -67,12 +63,8 @@ body {
 
 video {
   width: 100%;
-<<<<<<< HEAD
-  height:100%;
-=======
   aspect-ratio: 16 / 9;
   height:auto;
->>>>>>> ca7ae3c (Add live playback recovery and camera controls)
   background: black;
   object-fit: contain;
 }
@@ -81,8 +73,6 @@ video {
   .grid { grid-template-columns: 1fr; }
   video { height: 220px; }
 }
-<<<<<<< HEAD
-=======
 .live-toolbar { display:flex; flex-wrap:wrap; gap:14px; align-items:center; margin:20px 0; }
 .live-toolbar small { flex-basis:100%; color:#aebed2; }
 button, select { font:inherit; color:#e7f0fc; background:#203650; border:1px solid #5b718e; border-radius:6px; padding:7px 12px; }
@@ -95,7 +85,6 @@ button:focus-visible, select:focus-visible, input:focus-visible { outline:2px so
 .playback-detail { display:none; padding:0 12px 12px; margin:0; color:#bacde5; font-size:12px; overflow-wrap:anywhere; }
 .show-diagnostics .playback-detail { display:block; }
 @media (max-width:768px) { .camera.expanded { grid-column:auto; } }
->>>>>>> ca7ae3c (Add live playback recovery and camera controls)
 </style>
 </head>
 
@@ -106,28 +95,12 @@ button:focus-visible, select:focus-visible, input:focus-visible { outline:2px so
 
 <div class="header">
   <div class="header-title">
-<<<<<<< HEAD
-    <a href="http://192.168.1.19:8881/" style="text-decoration:none;color:inherit;">
-=======
     <a class="dashboard-link" href="http://192.168.1.19:8881/" style="text-decoration:none;color:inherit;">
->>>>>>> ca7ae3c (Add live playback recovery and camera controls)
       <h1>CCTV <span class="highlight">Live Cameras</span></h1>
     </a>
   </div>
 </div>
 
-<<<<<<< HEAD
-  <div class="grid">
-
-    <div class="camera">
-      <div class="title">Center <span class="camera-live">LIVE</span></div>
-      <video id="center-video" autoplay muted playsinline controls></video>
-    </div>
-
-    <div class="camera">
-      <div class="title">Gate <span class="camera-live">LIVE</span></div>
-      <video id="gate-video" autoplay muted playsinline controls></video>
-=======
   <div class="live-toolbar">
     <label>Grid quality <select id="stream-quality"><option value="full">Full quality</option><option value="light">Lightweight</option></select></label>
     <button type="button" id="reconnect-all">Reconnect all</button>
@@ -148,33 +121,22 @@ button:focus-visible, select:focus-visible, input:focus-visible { outline:2px so
       <video data-camera="gate" id="gate-video" autoplay muted playsinline controls></video>
       <div class="camera-controls"><button type="button" class="reconnect">Reconnect</button><button type="button" class="enlarge">Enlarge</button></div>
       <p class="playback-detail">Waiting for video</p>
->>>>>>> ca7ae3c (Add live playback recovery and camera controls)
     </div>
 
 
     <div class="camera">
-<<<<<<< HEAD
-      <div class="title">Left <span class="camera-live">LIVE</span></div>
-      <video id="left-video" autoplay muted playsinline controls></video>
-=======
       <div class="title">Left <span class="camera-live" data-state="waiting" role="status">Connecting</span></div>
       <video data-camera="left" id="left-video" autoplay muted playsinline controls></video>
       <div class="camera-controls"><button type="button" class="reconnect">Reconnect</button><button type="button" class="enlarge">Enlarge</button></div>
       <p class="playback-detail">Waiting for video</p>
->>>>>>> ca7ae3c (Add live playback recovery and camera controls)
     </div>
 
 
     <div class="camera">
-<<<<<<< HEAD
-      <div class="title">Entrance <span class="camera-live">LIVE</span></div>
-      <video id="entrance-video" autoplay muted playsinline controls></video>
-=======
       <div class="title">Entrance <span class="camera-live" data-state="waiting" role="status">Connecting</span></div>
       <video data-camera="entrance" id="entrance-video" autoplay muted playsinline controls></video>
       <div class="camera-controls"><button type="button" class="reconnect">Reconnect</button><button type="button" class="enlarge">Enlarge</button></div>
       <p class="playback-detail">Waiting for video</p>
->>>>>>> ca7ae3c (Add live playback recovery and camera controls)
     </div>
 
    
@@ -182,29 +144,19 @@ button:focus-visible, select:focus-visible, input:focus-visible { outline:2px so
 
 
 <div class="camera">
-<<<<<<< HEAD
-      <div class="title">Behind <span class="camera-live">LIVE</span></div>
-      <video id="behind-video" autoplay muted playsinline controls></video>
-=======
       <div class="title">Behind <span class="camera-live" data-state="waiting" role="status">Connecting</span></div>
       <video data-camera="behind" id="behind-video" autoplay muted playsinline controls></video>
       <div class="camera-controls"><button type="button" class="reconnect">Reconnect</button><button type="button" class="enlarge">Enlarge</button></div>
       <p class="playback-detail">Waiting for video</p>
->>>>>>> ca7ae3c (Add live playback recovery and camera controls)
     </div>
 
 
 
     <div class="camera">
-<<<<<<< HEAD
-      <div class="title">Garage <span class="camera-live">LIVE</span></div>
-      <video id="garage-video" autoplay muted playsinline controls></video>
-=======
       <div class="title">Garage <span class="camera-live" data-state="waiting" role="status">Connecting</span></div>
       <video data-camera="garage" id="garage-video" autoplay muted playsinline controls></video>
       <div class="camera-controls"><button type="button" class="reconnect">Reconnect</button><button type="button" class="enlarge">Enlarge</button></div>
       <p class="playback-detail">Waiting for video</p>
->>>>>>> ca7ae3c (Add live playback recovery and camera controls)
     </div>
     
     
@@ -212,134 +164,7 @@ button:focus-visible, select:focus-visible, input:focus-visible { outline:2px so
   </div>
 </div>
 
-<<<<<<< HEAD
-<script>
 
-const SERVER = "192.168.1.19";
-
-/* ================= DEVICE DETECTION ================= */
-
-const isIOS =
-  /iPad|iPhone|iPod/.test(navigator.userAgent) ||
-  (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
-
-const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
-
-/* ================= STREAM FUNCTION ================= */
-
-function setupStream(videoId, streamName, delay) {
-
-  setTimeout(async () => {
-
-    const video = document.getElementById(videoId);
-
-    const hlsUrl = `http://${SERVER}:8888/${streamName}/index.m3u8`;
-    const webrtcUrl = `http://${SERVER}:8889/${streamName}/whep`;
-
-    console.log(streamName + " → init");
-
-    /* =====================================================
-       🍎 iPHONE / iOS → FORCE HLS ONLY (CRITICAL FIX)
-    ===================================================== */
-    if (isIOS) {
-
-      console.log(streamName + ": iOS → HLS ONLY MODE");
-
-      if (video.srcObject) video.srcObject = null;
-
-      video.setAttribute("playsinline", "true");
-      video.setAttribute("webkit-playsinline", "true");
-
-      video.src = hlsUrl;
-      video.load();
-
-      video.play().catch(() => {});
-
-      return;
-    }
-
-    /* =====================================================
-       🥇 WEBRTC FIRST (DESKTOP + ANDROID)
-    ===================================================== */
-
-    try {
-
-      const pc = new RTCPeerConnection({ iceServers: [] });
-
-      pc.ontrack = (event) => {
-        video.srcObject = event.streams[0];
-        video.play().catch(() => {});
-      };
-
-      const offer = await pc.createOffer({
-        offerToReceiveVideo: true
-      });
-
-      await pc.setLocalDescription(offer);
-
-      const res = await fetch(webrtcUrl, {
-        method: "POST",
-        headers: { "Content-Type": "application/sdp" },
-        body: offer.sdp
-      });
-
-      if (!res.ok) throw new Error("WebRTC failed");
-
-      const answer = await res.text();
-      await pc.setRemoteDescription({ type: "answer", sdp: answer });
-
-      console.log(streamName + " → WebRTC LIVE");
-
-      return;
-
-    } catch (e) {
-      console.log(streamName + " → fallback to HLS");
-    }
-
-    /* =====================================================
-       🔁 HLS FALLBACK (ALL DEVICES)
-    ===================================================== */
-
-    if (video.srcObject) video.srcObject = null;
-
-    if (Hls.isSupported()) {
-
-      const hls = new Hls({
-        lowLatencyMode: false,
-        maxBufferLength: 10,        // FIX Firefox quality
-        backBufferLength: 30,       // FIX smooth playback
-        enableWorker: true
-      });
-
-      hls.loadSource(hlsUrl);
-      hls.attachMedia(video);
-
-      hls.on(Hls.Events.MANIFEST_PARSED, () => {
-        video.play().catch(() => {});
-      });
-
-    } else {
-
-      video.src = hlsUrl;
-      video.play().catch(() => {});
-    }
-
-  }, delay);
-}
-
-/* ================= INIT CAMERAS ================= */
-
-setupStream('center-video','center',0);
-setupStream('entrance-video','entrance',1000);
-setupStream('gate-video','gate',2000);
-setupStream('left-video','left',3000);
-setupStream('behind-video','behind',4000);
-setupStream('garage-video','garage',5000);
-
-</script>
-=======
-
->>>>>>> ca7ae3c (Add live playback recovery and camera controls)
 
 </body>
 </html>
