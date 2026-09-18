@@ -699,14 +699,42 @@ pathDefaults:
 
 # hls: yes
 # hlsVariant: default   # not "lowLatency" – some iOS versions have issues with LL-HLS
+
+
 paths:
-  # example:
-  # my_camera:
-  #   source: rtsp://my_camera
 
-  # Settings under path "all_others" are applied to all paths that
-  # do not match another entry.
-  all_others:
+  gate:
+    source: rtsp://<USER>:<PASSWORD>@192.168.1.99:554/Streaming/channels/101
 
+  center:
+    source: rtsp://<USER>:<PASSWORD>@192.168.1.82:554/Streaming/channels/101
 
+  entrance:
+    source: rtsp://<USER>:<PASSWORD>@192.168.1.89:554/Streaming/channels/101
 
+  garage:
+    source: rtsp://<USER>:<PASSWORD>@192.168.1.81:554/Streaming/channels/101
+
+  behind:
+    source: rtsp://<USER>:<PASSWORD>@192.168.1.92:554/Streaming/channels/101
+
+  left:
+    source: rtsp://<USER>:<PASSWORD>@192.168.1.93:554/Streaming/channels/101
+
+  gate_sub:
+    source: rtsp://<USER>:<PASSWORD>@192.168.1.99:554/Streaming/channels/102
+
+  center_sub:
+    source: rtsp://<USER>:<PASSWORD>@192.168.1.82:554/Streaming/channels/102
+
+  entrance_sub:
+    source: rtsp://<USER>:<PASSWORD>@192.168.1.89:554/Streaming/channels/102
+
+  garage_sub:
+    source: rtsp://<USER>:<PASSWORD>@192.168.1.81:554/Streaming/channels/102
+
+  behind_sub:
+    source: rtsp://<USER>:<PASSWORD>@192.168.1.92:554/Streaming/channels/102
+
+  left_sub:
+    source: rtsp://<USER>:<PASSWORD>@192.168.1.93:554/Streaming/channels/102
